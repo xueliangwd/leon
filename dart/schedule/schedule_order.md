@@ -2,10 +2,26 @@
 
 # 日视图效果算法实现
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [日视图效果算法实现](#日视图效果算法实现)
+      - [效果分析：](#效果分析)
+      - [定义一个树节点的Node，ScheduleNode：](#定义一个树节点的nodeschedulenode)
+      - [日程时间是否有重叠](#日程时间是否有重叠)
+      - [获取最深层的日程：](#获取最深层的日程)
+      - [设置Schedule所占宽度权重：](#设置schedule所占宽度权重)
+      - [核心排练日程的位置计算规则](#核心排练日程的位置计算规则)
+      - [整体排序：](#整体排序)
+
+<!-- /code_chunk_output -->
+
+
 <img src="https://raw.githubusercontent.com/xueliangwd/leon/main/images/schedule_day.jpg" alt="" title="">
 
 实现如上图中，类似钉钉、飞书中日历日视图效果；
-### 效果分析：
+#### 效果分析：
 在y轴上高度代表时间间隔，在x轴上有时间交叉的日程进行宽度等分；
 一个日程能与多个日程产生时间交叉，所以我们不能用线性结构处理，这样我们就考虑用树或图结构；
 一个日程交叉点会大于2个，这里采用多叉树（如果不太好理解，枚举较全面的效果，顺时针转90度看效果图也很像一个树结构）；
