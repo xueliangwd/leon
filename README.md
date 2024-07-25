@@ -8,8 +8,8 @@
 * [iOS安全事项](https://xueliangwd.github.io/leon/iOS/safety/safety.html)
 
 ## Flutter
-* [Flutter之路](https://xueliangwd.github.io/leon/Flutter/schedule/schedule_order.html)
-* [日程排序算法](https://xueliangwd.github.io/leon/Flutter/schedule/schedule_order.html)
+* [Flutter之路](https://xueliangwd.github.io/leon/dart/schedule/schedule_order.html)
+* [日程排序算法](https://xueliangwd.github.io/leon/dart/schedule/schedule_order.html)
 
 ## 鸿蒙
 * [鸿蒙学习资料](https://xueliangwd.github.io/leon/ArkTs/os_water.html)
