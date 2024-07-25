@@ -1,4 +1,4 @@
-<img src="https://github.com/xueliangwd/leon/blob/main/images/blog_header.jpg" alt="biu" title="主图">
+<img src="https://github.com/xueliangwd/leon/blob/main/images/blog_header.jpg" alt="" title="">
 
 # BLOG OF Leon
 
