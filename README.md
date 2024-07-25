@@ -2,6 +2,17 @@
 
 # BLOG OF Leon
 
+之前在微博、CSDN、简书、掘金总是这里写一篇哪里写一篇，平台太多最后还老不记得密码；
+自己搭一个私人blog也不是很好用，后来就不再写了...
+兜兜转转，除了公司内网，最常用就一个git账号比较固定了，在这做下记录方便回顾。
+整理一套懒人方法，一切都在线解决，这样就再也不用担心换电脑装环境了。
+
+## Github Blog全家桶
+- [Blog创建](https://lichtg.github.io/post/001.html "Blog创建")
+- [在线Markdown可视化编辑](https://pandao.github.io/editor.md/ "在线Markdown可视化编辑")
+- [在线MD转Html](https://lwebapp.com/zh/markdown-to-html "在线MD转Html")
+内容全都在线编辑，然后在github保存即可，连git clone都不需要了
+
 ## iOS
 * [iOS知识图谱](https://xueliangwd.github.io/leon/iOS/optimize/optimize.html)
 * [App优化概览](https://xueliangwd.github.io/leon/iOS/optimize/optimize.html)
