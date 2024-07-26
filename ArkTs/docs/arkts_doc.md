@@ -10,6 +10,12 @@
 - 线程
 - 网络
 
+## 项目迁移转换
+
+- FLutter:纯Dart可直接转鸿蒙，插件内含原生（iOS/Android）的需自己增加对应鸿蒙channel
+- ReactNative：可直接转鸿蒙，原生代码同理自己实现桥
+- Taro已支持转鸿蒙
+
 ## AI
 - 语音
 - 视觉
