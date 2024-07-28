@@ -12,15 +12,15 @@
 * [iOS安全事项](https://xueliangwd.github.io/leon/iOS/safety/safety.html)
 
 ## Flutter
-* [Flutter之路](https://xueliangwd.github.io/leon/dart/schedule/schedule_order.html)
+* [Flutter之路](https://xueliangwd.github.io/leon/dart/docs/learn.html)
 * [日程排序算法](https://xueliangwd.github.io/leon/dart/schedule/schedule_order.html)
 
 ## 鸿蒙
-* [鸿蒙学习资料](https://xueliangwd.github.io/leon/ArkTs/os_water.html)
-* [水印组件](https://xueliangwd.github.io/leon/ArkTs/os_water.html)
-* [沙箱路径转换](https://xueliangwd.github.io/leon/ArkTs/ospath.html)
-* [HarmonyOS应用开发者基础认证题库](https://xueliangwd.github.io/leon/ArkTs/question_base_bank.html)
-* [HarmonyOS应用开发者高级认证题库](https://xueliangwd.github.io/leon/ArkTs/question_high_bank.html) 
+* [鸿蒙学习资料](https://xueliangwd.github.io/leon/ArkTs/docs/os_water.html)
+* [水印组件](https://xueliangwd.github.io/leon/ArkTs/water/os_water.html)
+* [沙箱路径转换](https://xueliangwd.github.io/leon/ArkTs/ospath/ospath.html)
+* [HarmonyOS应用开发者基础认证题库](https://xueliangwd.github.io/leon/ArkTs/question_base_bank/question_base_bank.html)
+* [HarmonyOS应用开发者高级认证题库](https://xueliangwd.github.io/question_high_bank/leon/ArkTs/question_high_bank.html) 
 
 
 ## Other
