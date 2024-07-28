@@ -19,6 +19,9 @@
 * [鸿蒙学习资料](https://xueliangwd.github.io/leon/ArkTs/os_water.html)
 * [水印组件](https://xueliangwd.github.io/leon/ArkTs/os_water.html)
 * [沙箱路径转换](https://xueliangwd.github.io/leon/ArkTs/ospath.html)
+* [HarmonyOS应用开发者基础认证题库](https://xueliangwd.github.io/leon/ArkTs/question_base_bank.html)
+* [HarmonyOS应用开发者高级认证题库](https://xueliangwd.github.io/leon/ArkTs/question_high_bank.html) 
+
 
 ## Other
 
