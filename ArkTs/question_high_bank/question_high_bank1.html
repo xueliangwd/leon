@@ -1,0 +1,2419 @@
+<!DOCTYPE html><html><head>
+  <title>鸿蒙高级认证题库</title>
+  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/yuxueliang/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+
+      </style>
+      </head><body for="html-export">
+        <div class="crossnote markdown-preview  ">
+
+<ul>
+  <h1>鸿蒙高级认证题库</h1>
+<li><p>官方地址
+<a href="https://developer.huawei.com/consumer/cn/training/dev-cert-detail/101666948302721398">基础认证</a>
+<a href="https://developer.huawei.com/consumer/cn/training/dev-cert-detail/101684223987951077" title="高级认证">高级认证</a></p>
+<p>  题目至2024.7.25号 单选正确率90%，多选正确率80%！
+  官方题目也在不断更新，难度不断上升。
+  试题内容一共60题，40题单选、20题多选。题库估计加起来有200道。</p>
+</li>
+</ul>
+<p>HarmonyOS应用开发者高级认证 题库</p>
+<ul>
+<li>单选题</li>
+</ul>
+<p>5.下面的配置存在有几处错误
+module.json5配置文件:</p>
+<pre><code class="language-javascript">&#39;module&quot;:{
+  “name”: “entry”
+  “abilities”:[
+  {
+    “name”:“EntryAbility”“srcEntry”:./ets/entryability/EntryAbility.ets&quot;
+    .··“skills”:[
+    f
+    entities&quot;:[&quot;entity.system.home
+    ，
+    “actions”:
+    &quot;ohos.want.action.home
+
+    entities&quot;:
+    &quot;entity.system.home
+    “actions”:[
+    &quot;ohos.want.action.home
+
+    “metadata”:[
+
+    “name”:
+    “ohos.entry.shortcuts”
+    “resource”:
+    “p r o f i l e : s h o r t c u t s c o n f i g &quot; 在 / r e s o u r c e s / b a s e / p r o f i l e / 日录下配置 s h o r t c u t s c o n f i g . j s o n 配置文件 : s h o r t c u t s &quot; : [ ′ s h o r t c u t I d &quot; : &quot; l a b e l &quot; : &quot; s h o r t c u t L a b e l &quot; i c o n &quot; : &quot; profile:shortcuts_config&quot; 在/resources/base/profile/日录下配置shortcuts_config.json配置文件: shortcuts&quot;:[ &#39;shortcutId&quot;: &quot;label&quot;:&quot;shortcutLabel&quot;icon&quot;:&quot;profile:shortcuts
+    c
+    onfig&quot;在/resources/base/profile/日录下配置shortcuts
+    c
+    
+    onfig.json配置文件:shortcuts&quot;:[
+    ′
+    shortcutId&quot;:&quot;label&quot;:&quot;shortcutLabel&quot;icon&quot;:&quot;media:shortcutIcon”
+    “wants”:[
+    “bundleName”:“com.ohos.hello”
+    “moduleName”:
+    “abilityName”:
+    EntryAbility
+</code></pre>
+<pre><code>D.1
+</code></pre>
+<p>6下面的配置存在有几处错误（）</p>
+<pre><code class="language-javascript">app.json5配置文件：
+  {
+    “app”: {
+    “bundleName”: “com.example.myapplication”,
+    “vendor”: “example”,
+    “versionCode”: 1000000,
+    “versionName”: “1.0.2”,
+    “icon”: “m e d i a : a p p i c o n &quot; , &quot; l a b e l &quot; : &quot; media:app_icon&quot;, &quot;label&quot;: &quot;media:app
+    i
+    
+    con&quot;,&quot;label&quot;:&quot;string:app_name”,
+    “bundleType”: “app”
+  }
+  }
+  module.json5配置文件：
+  {
+    “module”: {
+    “name”: “feature”,
+    // …
+    “atomicService”: {
+
+      &quot;preloads&quot;:[
+
+      {
+        &quot;moduleName&quot;:&quot;feature&quot;
+      }
+      ]
+    }
+   
+  }
+  }
+</code></pre>
+<pre><code>D.2
+</code></pre>
+<ol start="11">
+<li>为了使isShow参数值与半模态界面的状态同步，可以使用下列那种方式双向绑定isShow参数？ C $$</li>
+</ol>
+<p>A、&amp;&amp;</p>
+<pre><code class="language-javascript">@Entry
+@Component
+struct SheetTransitionExample {
+  @State isShow: boolean = false
+  @State isShow2: boolean = false
+  @State sheetHeight: number = 300;
+
+  @Builder
+  myBuilder() {
+    Column() {
+      Button(&quot;change height&quot;)
+        .margin(10)
+        .fontSize(20)
+        .onClick(() =&gt; {
+          this.sheetHeight = 500
+        })
+    }
+    .width(&#39;100%&#39;)
+    .height(&#39;100%&#39;)
+  }
+
+  build() {
+    Column() {
+      Button(&quot;transition modal 1&quot;)
+        .onClick(() =&gt; {
+          this.isShow = true
+        })
+        .fontSize(20)
+        .margin(10)
+        .bindSheet(&amp;&amp;this.isShow,this.myBuilder(),{
+          height:this.sheetHeight
+      })
+    }
+    .justifyContent(FlexAlign.Center)
+    .width(&#39;100%&#39;)
+    .height(&#39;100%&#39;)
+  }
+}
+</code></pre>
+<p>B、@@</p>
+<pre><code class="language-javascript">@Entry
+@Component
+struct SheetTransitionExample {
+  @State isShow: boolean = false
+  @State isShow2: boolean = false
+  @State sheetHeight: number = 300;
+
+  @Builder
+  myBuilder() {
+    Column() {
+      Button(&quot;change height&quot;)
+        .margin(10)
+        .fontSize(20)
+        .onClick(() =&gt; {
+          this.sheetHeight = 500
+        })
+    }
+    .width(&#39;100%&#39;)
+    .height(&#39;100%&#39;)
+  }
+
+  build() {
+    Column() {
+      Button(&quot;transition modal 1&quot;)
+        .onClick(() =&gt; {
+          this.isShow = true
+        })
+        .fontSize(20)
+        .margin(10)
+        .bindSheet(@@this.isShow,this.myBuilder(),{
+          height:this.sheetHeight
+      })
+    }
+    .justifyContent(FlexAlign.Center)
+    .width(&#39;100%&#39;)
+    .height(&#39;100%&#39;)
+  }
+}
+</code></pre>
+<p>C、$$</p>
+<pre><code class="language-javascript">// xxx.ets
+@Entry
+@Component
+struct SheetTransitionExample {
+ @State isShow: boolean = false
+ @State isShow2: boolean = false
+ @State sheetHeight: number = 300;
+
+ @Builder
+ myBuilder() {
+   Column() {
+     Button(&quot;change height&quot;)
+       .margin(10)
+       .fontSize(20)
+       .onClick(() =&gt; {
+         this.sheetHeight = 500
+       })
+   }
+   .width(&#39;100%&#39;)
+   .height(&#39;100%&#39;)
+ }
+
+ build() {
+   Column() {
+     Button(&quot;transition modal 1&quot;)
+       .onClick(() =&gt; {
+         this.isShow = true
+       })
+       .fontSize(20)
+       .margin(10)
+       .bindSheet($$this.isShow,this.myBuilder(),{
+         height:this.sheetHeight
+     })
+   }
+   .justifyContent(FlexAlign.Center)
+   .width(&#39;100%&#39;)
+   .height(&#39;100%&#39;)
+ }
+}
+</code></pre>
+<p>D、</p>
+<pre><code class="language-javascript">// xxx.ets
+@Entry
+@Component
+struct SheetTransitionExample {
+  @State isShow: boolean = false
+  @State isShow2: boolean = false
+  @State sheetHeight: number = 300;
+
+  @Builder
+  myBuilder() {
+    Column() {
+      Button(&quot;change height&quot;)
+        .margin(10)
+        .fontSize(20)
+        .onClick(() =&gt; {
+          this.sheetHeight = 500
+        })
+    }
+    .width(&#39;100%&#39;)
+    .height(&#39;100%&#39;)
+  }
+
+  build() {
+    Column() {
+      Button(&quot;transition modal 1&quot;)
+        .onClick(() =&gt; {
+          this.isShow = true
+        })
+        .fontSize(20)
+        .margin(10)
+        .bindSheet(this.isShow,this.myBuilder(),{
+          height:this.sheetHeight
+      })
+    }
+    .justifyContent(FlexAlign.Center)
+    .width(&#39;100%&#39;)
+    .height(&#39;100%&#39;)
+  }
+}
+</code></pre>
+<p>8、根据上面代码，以下解释正确的是 D</p>
+<p>注：被注释的代码是额外加上的，用于测试，并非题目原本的</p>
+<pre><code class="language-javascript">
+enum Mode {
+  fullScreen,
+  halfScreen
+}
+
+@Entry
+@Component
+struct Index {
+
+  @State title: string = &quot;&quot;;
+  @State mode: Mode = Mode.fullScreen;
+
+  isShowTitle(): boolean {
+    if (this.mode == Mode.fullScreen) {
+      this.title = &quot;Title&quot;;
+
+      return true;
+    }else {
+      this.title = &quot;Section&quot;;
+      return false;
+    }
+  }
+
+  build() {
+    Column(){
+      if (this.isShowTitle()) {
+        Text(`${this.title}`)
+      } else {
+        Text(`${this.title}`)
+      }
+      ChangeMode({ mode: this.mode})
+    }
+  }
+}
+
+@Component
+struct ChangeMode {
+  //@Link mode: Mode;
+  @Prop mode: Mode;
+  build() {
+    Row({space: 20}) {
+      Button(&#39;full screen&#39;).onClick(() =&gt; {
+        this.mode = Mode.fullScreen
+      })
+      Button(&#39;half screen&#39;).onClick(() =&gt; {
+        this.mode = Mode.halfScreen
+      })
+      //Text(this.mode.toString())
+    }
+  }
+}
+</code></pre>
+<p>A、本例子可以运行起来，所以代码没有问题。</p>
+<p>B、在ChangeMode里改变mode的值，会触发其父组件Page的Title内容的切换。</p>
+<p>C、为了避免@Prop的拷贝，可以优化使用@Link，在该例子中行为和@Prop一样。</p>
+<p>D、在自定义组件Page的build方法里改变状态变量是非法操作，可能导致未定义的异常UI行为。</p>
+<p>11、依次点击A、B、C、D四个按钮，其中不会触发UI刷新的是：C</p>
+<pre><code class="language-javascript">class Info{
+  name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+}
+
+@Entry
+@Component
+struct Index {
+  @State nameList: Info[] = [new Info(&quot;Tom&quot;), new Info(&quot;Bob&quot;), new Info(&quot;John&quot;)]
+
+  build() {
+    Column() {
+      ForEach(this.nameList, (item: Info) =&gt; {
+        Text(`${item.name}`)
+      })
+      Button(&quot;A&quot;)
+        .onClick(() =&gt; {
+          this.nameList.push(new Info(&quot;Lucy&quot;))
+        })
+      Button(&quot;B&quot;)
+        .onClick(() =&gt; {
+          this.nameList[0] = new Info(&quot;Eric&quot;)
+
+        })
+      Button(&quot;C&quot;)
+        .onClick(() =&gt; {
+          this.nameList[0].name = &quot;Jim&quot;
+        })
+      Button(&quot;D&quot;)
+        .onClick(() =&gt; {
+          this.nameList = [new Info(&quot;Barry&quot;), new Info(&quot;Cindy&quot;), new Info(&quot;David&quot;)]
+
+        })
+    }
+  }
+}
+</code></pre>
+<p>​ A、A</p>
+<p>​ B、B</p>
+<p>​ C、C</p>
+<p>​ D、D</p>
+<p>1、下面关于方舟字节码格式PREF_IMM16_v8_v8描述正确的是</p>
+<p>16位前缀操作码，16位立即数，2个8位寄存器</p>
+<p>2、ARKTS支持以下哪个函数？(C)</p>
+<p>A.Object.getOwnPropertyDescriptor();</p>
+<p>B.Object.getOwnPropertyDescriptors();</p>
+<p>C.Object.values();</p>
+<p>D.Object.hasOwnProperty();</p>
+<p>3、下面关于方舟字节码格式IMM16_ID16_IMM8描述正确的是 （7.15更新）</p>
+<p>8位操作码，16位立即数，16位id，8位立即数</p>
+<p>4、以下哪些赋值语句在arkts中是合法</p>
+<p>value2  let value2:string|null=null</p>
+<p>5、Text组件不支持以下哪种ABCD代码中哪种使用方式?（C） 7.15更新</p>
+<p>A：</p>
+<pre><code>@Entry
+
+@Component
+
+struct TextExample{
+
+    build(){
+
+        Column({space:8}){
+
+            Text(&#39;textshadow&#39;).fontsize(9).fontcolor(0xcccccc).margin(15).width(&#39;90%&#39;) 
+        }
+    }
+}
+</code></pre>
+<p>B：</p>
+<pre><code class="language-javascript">@Entry
+
+@Component
+
+struct SpanExample{build(){Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Start, justifycontent: FlexA1ign.SpaceBetween }){
+
+Text(){Span(&#39;In Line&#39;)Span(&#39;Component&#39;)Span(&#39;!&#39;)}}..width(&#39;100%&#39;).height(250).padding({ left:35,right: 35,top: 35 })
+
+}}
+</code></pre>
+<p>C:</p>
+<pre><code class="language-javascript">@Entry
+
+@Component
+
+struct styledstringDemo{scroll:Scroller =new Scroller();
+
+layout:TextLayoutManager =new TextLayoutManager();
+
+controller1:TextController =new TextController();
+
+async onPageShow(){this.controller1.setLayout(this.layout)}
+
+
+
+build(){Column(){Text(undefined,{controller:this.controller1 })}.width(&#39;100%&#39;)}}
+</code></pre>
+<p>D:</p>
+<pre><code class="language-javascript">@Entry
+
+@Component
+
+struct styledStringDemo {
+
+scroll:Scroller =new Scroller();
+
+mutableStyledString: Mutablestyledstring = new Mutablestyledstring(&quot;test hello world&quot;, [{
+
+start:0,length:5,
+
+styledKey:styledstringKey.FONT,
+
+styledValue:new Textstyle({fontColor:Color.Pink })}]);
+
+controller1:TextController=new TextController();
+
+
+
+async onPageshow(){
+
+this.controller1.setstyledstring(this.mutablestyledstring)}
+
+
+
+build(){
+
+Column(){Text(undefined,{ controller: this.controller1 })}.width(&#39;100%&#39;)}}
+</code></pre>
+<p>6、以下哪个装饰器用来表示并发共享对象？（D）</p>
+<p>A.@Style</p>
+<p>B.@Shared</p>
+<p>C.@State</p>
+<p>D.@Sendable</p>
+<p>7、以下关于ArkUI NavDestination组件的生命周期执行顺序中正确的是</p>
+<p>A onWillappear-&gt;onAppear-&gt;onWillShow-&gt;onShow-&gt;onWillHide-&gt;onHidden-&gt;onWillDisappear-&gt;onDisappear</p>
+<p>8、下面哪种转场效果在入场动画时，表现为从透明度为8、相对于组件正常显示位置x方向平移10evp的状态，</p>
+<p>到默认的透明度为1、相对于组件不平移的状态，且透明度动画和平移动画的动画时长均为2000ms?(B) 7.15更新</p>
+<p>A.TransitionEffect.asymmetric(TransitionEffect.OPACiTY.animation({duration:2000}),TransitionEffect.translate({x:100}).animation({duration: 2000}))</p>
+<p>B.TransitionEffect.OPAClTY.animation({duration: 2000)).combine(TransitionEffect.translate({x:100}))</p>
+<p>C.TransitionEffect.OPACITY.combine(TransitionEffect.translate({x:100}).animation({duration: 2000}))</p>
+<p>D.TransitionEffect.translate({x:100}).combine(TransitionEffect.OPACITY.animation({duration: 2000}))</p>
+<p>9、使用promptAction.showToast如何设置显示在其他应用之上?</p>
+<p>toastshowmode.TOP_MOAST</p>
+<p>10、依次点击ABCD四个按钮，其中不会触发ui刷新的是（button AB） 7.15更新多选题</p>
+<pre><code class="language-javascript">@Entry
+
+@Component
+
+struct Index {
+
+ @State count:number=0;
+
+ @State @Watch(&#39;onValueChange&#39;) value:number=50;
+
+ onValueChange() {
+
+  this.count = this.value
+
+ }
+
+ build() {
+
+  Column(){
+
+   Text(`${this.count}`)
+
+   Button(&#39;A&#39;)
+
+    .onClick(() =&gt; {
+
+     this.count = 0
+
+    })
+
+   Button(&#39;B&#39;)
+
+    .onClick(() =&gt; {
+
+     for (let i = 0; i &lt; 1000; i++) {
+
+      this.count = i
+
+     }
+
+     for (let i = 1000; i &gt; 0; i--) {
+
+      this.count = i
+
+     }
+
+     this.count--
+
+    })
+
+   Button(&#39;C&#39;)
+
+    .onClick(() =&gt; {
+
+     this.value = 100
+
+    })
+
+   Button(&#39;D&#39;)
+
+    .onClick(() =&gt; {
+
+     setInterval(() =&gt; {
+
+      this.count++
+
+     },1000)
+
+    })
+
+  }
+
+ }
+
+}
+</code></pre>
+<p>11、从桌面冷启动如下应用，点击Change按钮5次，整个过程中，代码中的2条log依次出现的次数</p>
+<p>1,0  7.20更新</p>
+<p>12、现有一个宽高分别为200px的xcomponent</p>
+<p>A、offsetX为-20</p>
+<p>offsetY为50</p>
+<p>surfaceWidth为200</p>
+<p>surfaceHeight为500</p>
+<p>13、以下关于垂直滚动Grid组件使用cachedcount属性的说明正确的是（B） 7.15更新</p>
+<p>B.设置cachedCount为1，则Grid在显示范围上下各缓存1个Gridltem</p>
+<p>14、在使用DevEco studio的profiler进行Harmonyos应用性能优化的流程中，以下哪个步骤最恰当地描述了开发者利用profiler工具进行性能问题识别、定位、优化及验证的完整过程</p>
+<p>C.利用&quot;Realtime Monitor&quot;初步识别性能瓶颈，创建深度分析任务定位根因，根据分析结果优化代码，再用&quot;Realtime Monitor&quot;验证优化效果</p>
+<p>15、一个复杂的项目，该项目不仅包含主入口模块（Entry Module)，还有多个特性的功能模块(Feature Modules/HSP)，并且这些模块间存在着相互调用关系。</p>
+<p>为了确保在调试过程中能够完整地测试所有交互逻辑，需要将涉及到的所有模块的HAP包都部署到目标设备上。</p>
+<p>请从以下选项中选择正确的操作步骤来配置DevEco Studio，以便一次性部署和调试项目中的多个模块</p>
+<p>B进入“Run &gt;Edit Configurations&quot;菜单，在&quot;Deploy Multi Hap&quot;选项卡下，勾选&quot;Deploy Multi HapPackages”，随后在列表中选择需要部署的模块。</p>
+<p>16、当您开始开发一个应用/服务时，首先需要根据工程创建向导，创建一个新的工程，工具会自动生成对应的代码和资源模板。关于新建工程，下列选项说法正确的是?</p>
+<p>A. Compatible SDK是兼容的最低API Version。</p>
+<p>17、项目中包含多个模块和数千行代码。随着开发的深入，项目中的ArkTS源代码文件逐渐积累了大量import语句，其中不乏未使用的import以及不规范的排序情况，</p>
+<p>关于DevEco studio的编辑器的“optimize Imports”，以下说法正确的是(A) 7.18更新</p>
+<p>A. 可以在菜单栏中依次点击&quot;code”&gt;&quot;Reformat code&quot;来达到优化import的目的，因为&quot;Optimize imports&quot;功能已整合进&quot;Reformat code&quot; 中。</p>
+<p>18、小李正在使用DevEco studio进行Harmonyos应用的开发工作，他需要对一个频繁被调用的函数calculateData()进行重构，为了帮助小李高效地找到calculateData()函数的所有引用位置，并确保重构时考虑周全，以下哪个步骤是正确的使用DevEco studio的&quot;Find</p>
+<p>Usages”功能的操作方法</p>
+<p>A小李只需将光标定位在calculateData)函数名上，右键点击并选择&quot;Find Usages”，或者直接使用快捷键Alt +F7(macOS为Option + F7) ,DevEco Studio会自动列出该函数在项目中的所有引用位置。</p>
+<p>19、在使用DevEco studio的Profiler进行Harmonyos应用或服务内存管理优化时，以下哪个描述最准确地概述了“Allocation Insight”功能在识别和解决内存问题中的作用</p>
+<p>A. Allocation Insight通过分析应用服务运行时的内存分配及使用情况，辅助定位内存泄漏、内存抖动和溢出问题，支持优化内存使用</p>
+<p>20、在使用DevEco Studio的Profiler进行Harmonyos应用或服务性能分析时，面对应用出现卡顿、加载慢等性能瓶颈问题，以下哪个描述最贴切地说明了“Time场景分析任务”的功能及其对开发者优化流程的帮助</p>
+<p>A. Time场景分析任务展示热点区域内的CPU和进程级调用栈耗时情况，支持代码跳转，助力开发者快速定位并优化耗时较长的代码段</p>
+<p>21.开发者在编写ArkUI代码时，想要提前预览下所编写的组件的效果，下述哪个组件可以使用DevEco studio Previewer正常预览?</p>
+<p>B.@Preview @Component struct TitleSample { @StorageProp(&#39;title&#39;”) title: string = &#39;PlaceHolder&#39;; build( ){Text(this.title)}}</p>
+<p>22.want参数的entities匹配规则错误的是 A
+A、调用方传入的want参数的entities为空，待匹配应用组件的skills配置中的entities不为空，则entities匹配失败。</p>
+<p>B、调用方传入的want参数的entities为空，待匹配应用组件的skills配置中的entities为空，则entities匹配成功。</p>
+<p>C、调用方传入的want参数的entities不为空，待匹配应用组件的skills配置中的entities为空，则entities匹配失败。</p>
+<p>D、调用方传入的want参数的entities不为空，待匹配应用组件的skills配置中的entities不为空且包含调用方传入的want参数的entities，则entities匹配成功。</p>
+<p>23.HAR(Harmony Archive)是Harmonyos提供的共享包，以下关于HAR的描述错误的是（D）</p>
+<p>D HAR不支持使用page页面</p>
+<p>24.在资源覆盖时，以下优先级排序正确的是(A)</p>
+<p>A. AppScope&gt;HAP包自身模块&gt;dayjs模块&gt;lottie模块</p>
+<p>25.D hsp包编译后的产物是.hsp文件 7.20更新</p>
+<p>26.根据代码，以下ABCD解释正确的是(D) 7.16更新</p>
+<pre><code class="language-javascript">enum Mode {
+
+fullScreen,halfScreen
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct Page{
+
+@State title: string =”@state mode:Mode = Mode.fullScreen;
+
+isShownTitle(): boolean{if(this.mode == Mode.fullScreen){this.title = &quot;Title&quot;;
+
+return true;
+
+} else {
+
+this.title=&quot;Section&quot;;return false;}}
+
+
+
+build(){
+
+Column(){
+
+if(this.isShownTitle()){Text(`${this.title}`)}else{
+
+Text(`${this.title}`)}
+
+ChangeMode({ mode: this.mode})
+
+}}}
+
+
+
+@component
+
+struct ChangeMode {@Prop mode: Mode;build(){
+
+Row({space:20}){
+
+Button(&#39;full screen&#39;).onclick(()=&gt;{this.mode = Mode.fullScreen;})Button(&#39;half screen&#39;).onclick(()=&gt;{this.mode = Mode.halfScreen;
+
+})}}}
+</code></pre>
+<p>A本例子可以运行起来，所以代码没有问题，</p>
+<p>B为了避免@Prop的拷贝，可以优化使用@Link，在该例子中行为和@Prop-样。</p>
+<p>C在ChangeMode里改变mode的值，会触发其父组件Page的Title内容的切换</p>
+<p>D在自定义组件Page的build方法里改变状态变量是非法操作，可能导致未定义的异堂UI行为.</p>
+<p>27.一个应用的一个UIAblity，其exported字段配置为false，以下哪个场景可以拉起这个</p>
+<p>C.UIAbility.caller应用在后台，申请了长时任务，有START ABILITY_FROM BACKGROUND权限;</p>
+<p>28.以下关于ArkUI NavDestination组件的生命周期执行顺序中正确的是?(A)</p>
+<p>A.onWillappear-&gt;onAppear-&gt;onWillShow-&gt;onShow-&gt;onWillHide-&gt;onHidden-&gt;onWillDisappear-&gt;onDisappear</p>
+<p>B.onWillappear-&gt;onWillShow-&gt;onShow-&gt;onAppear-&gt;onWillHide-&gt;onHidden-&gt;onWillDisappear-&gt;onDisappear</p>
+<p>C.onWillappear-&gt;onAppear-&gt;onWillShow-&gt;onShow-&gt;onWillHide-&gt;onWillDisappear-&gt;onHidden-&gt;onDisappear</p>
+<p>D.onWillappear-&gt;onAppear-&gt;onWillShow-&gt;onShow-&gt;onWillDisappear-&gt;onWillHide-&gt;onHidden-&gt;onDisappear</p>
+<p>29.singleton模式的UIAbility，在冷启动时生命周期的执行顺序是:(B)</p>
+<p>B onCreate-&gt;onWindowStageCreate-&gt;onForeground</p>
+<p>30.hiAppEvent提供的Watcher接口，()属性不配置，会导致编译报错，产生&quot;ArkTS compiler Error&quot; </p>
+<p>D.name</p>
+<p>31.作为一个应用开发者，想搭建运维平台，想在应用内定时读取当前的内存信息，可以通过(B)接口来实现。</p>
+<p>B hiDebug 7.18修正</p>
+<p>32.当使用状态变量进行ArkUI组件间数据通信的时候，如果两个组件间没有直接的嵌套关系（非父子和祖孙关系组件），</p>
+<p>但是他们又属于同一页面，最佳的装饰器应该选用哪个？（C）7.12修正</p>
+<p>A.@Provide+@Consume</p>
+<p>B.@State+@Link</p>
+<p>C.LocalStorage</p>
+<p>D.AppStorage</p>
+<p>33.当标记了@Reuseable的自定义组件实现了组件复用后，这个组件的复用范围是什么?</p>
+<p>C标记了@Reuseable的自定义组件的父组件范围内</p>
+<p>34.ArkuI组件复用的作用机制是减少了什么时间从而降低了丢帧率? 7.17更新</p>
+<p>A组件节点和对象的创建时间</p>
+<p>35.下面持续集成描述哪项是错误的:</p>
+<p>B.持续集成就是持续编译，二者异曲同工</p>
+<p>36.在moduleA(HAP类型)中有一个图片名为image.png，在moduleB(HAR类型)也存在一个图片名为image.png，而moduleA依赖于moduleB，那么在moduleA的编译产物hap包中，image.png存在情况是:</p>
+<p>A. 仅存在moduleA的image.png</p>
+<p>37.以下关于应用架构技术选型说法不正确的是()</p>
+<p>C.元服务和应用可以共用一个代码工程，采用多目标产物构建方式，构建出应用和元服务两个产物，用于上架。</p>
+<p>38.某App有A、B、C、D四个团队分别负责Module A、Module B 、Module C和Module D四个业务模块。随着业务的发展。Module A需要跳转到Module B、Module C的页面:Module B需要跳转到Module C、Module D的界面，Module C需要跳转到Module A的界面，Module D需要跳转到Module B和Module C的界面。由于复杂的依赖关系，导致一旦有变化就需要知会各个团队，所以该团队的架构师想要解糯各个业务模块，以下哪些做法是不推荐的(C)</p>
+<p>A. 采用RouterModule作为中介者并用动态import解载各个业多模块。</p>
+<p>B. 可以采用Navigation作为页面导航根容器，将其放在entry中，其他Module 的页面作为Navigation的子页面。</p>
+<p>C. 采用静态import方式引入对应跳转的页面。</p>
+<p>D. 在RouterModule中采用路由表方式解聘各个业务授块</p>
+<p>39.某App依赖了3个ohpm库，这3个库占用的体积都比较大。在App的技术架构中，有多个hap和多个hsp均依赖这3个库，为了减少app的首包大小，以下哪些做法是无效的?</p>
+<p>A 将某些特性做成按需加载模块，若这3个ohpm仅在按需加载模块里面使用，则将其打包在按需加载模块中。</p>
+<p>40.关于长时任务开发使用的接口是 </p>
+<p>B 使用startBackgroundRunning申请任务，使用stopBackgroundRunning取消任务</p>
+<p>41.hiAppEvent提供的Watcher接口，需要订阅到OS的崩溃事件，正确的实现方式（A）</p>
+<pre><code class="language-javascript">hiAppEvent.addWatcher({
+
+ name: &quot;watcher&quot;,
+
+ appEventFilters: [
+
+ {
+
+  domain: hiAppEvent.domain.OS,
+
+  names: [hiAppEvent.event.APP_CRASH]
+
+ }
+
+ ],
+
+ onReceive: (domain: string, appEventGroups: Array&lt;hiAppEvent.AppEventGroup&gt;) =&gt; {
+
+ }
+
+ })
+</code></pre>
+<p>42.现有一个宽高分别为200px的XComponent组件，其绑定了一个XComponentController(xcController)，依次进行如下操作： </p>
+<p>(1) xcController.setXComponentSurfaceRect( {surfaceWidth: 150, surfaceHeight: 500} )</p>
+<p>(2) 设置XComponent组件的padding为{ top: 5px, left: 10px, bottom: 15px, right: 20px }</p>
+<p>(3) 将XComponent组件大小改为300px×300px</p>
+<p>(4) 给XComponent组件设置一个宽度为2px的边框</p>
+<p>(5) xcController.setXComponentSurfaceRect( { offsetX: -20, offsetY: 50, surfaceWidth: 200, surfaceHeight: -100 } )</p>
+<p>之后，调用xcController.getXComponentSurfaceRect()的返回值为</p>
+<p>选择 { offsetX: 75, offsetY: -100, surfaceWidth: 150, surfaceHeight: 500 } 7.16更新</p>
+<p>43.以下关于Taskpool和Worker的描述正确的是（A）</p>
+<p>A.TaskPool支持任务延时执行</p>
+<p>B.开发者需要自行管理taskpool的数量及生命周期</p>
+<p>C.Worker自行管理生命周期，开发者无需关心任务负载高低</p>
+<p>D.TaskPool和Worker的任务执行时长上限都是无限制</p>
+<p>44、以下a1\a2\a3\a4哪些赋值语句在ArkTS中是合法的？(a2)</p>
+<pre><code class="language-javascript">class A{v:number =0;}
+
+class B extends A{u:string =&#39;&#39;;}
+
+class c{
+
+v:number =0;}
+
+let a1:A = new C();
+
+let a2:A= new B();
+
+let a3: B = new A();
+
+let a4: C= new B();
+</code></pre>
+<p>45、ArkTs支持以下哪些函数？ （C）(JS是都支持的)</p>
+<p>A. Object.isPrototypeOf();</p>
+<p>B. Object.getOwnPropertySymbols();</p>
+<p>C. Object.keys();</p>
+<p>D. Object.isExtensible();</p>
+<p>46、张工正在使用DevEco studio进行一个复杂项目的开发工作，项目中包含了成千上万行代码且涉及众多模块。在重构代码的过程中，他意识到需要对一个核心类名进行更改，考虑到这个类在整个项目中被广泛引用，手动修改不仅耗时且容易出错。</p>
+<p>基于DevEco studio提供的代码编辑功能，以下哪个描述最准确地概述了张工如何高效且安全地完成对类名的更改，同时确保整个项目中所有相关引用同步更新?（B 最长的）</p>
+<p>A、张工需打开项目搜索功能，输入旧类名找到所有匹配项，逐一进行替换，完成更名操作。</p>
+<p>B、张工选中需要更名的类名，使用快捷键Shift+F6或右键菜单Refactor -&gt;Rename，在弹出框中输入新名称并选择替换范围后，点击“Refactor”完成更名操作，确保所有相关引用自动更新。</p>
+<p>C、张工只需简单选中需要更名的类名，按下Delete键删除后直接输入新名称，DevEco Studio会自动识别并更新所有引用。</p>
+<p>D、张工在代码编辑器中右键点击该类名，选择“Find Usage”，手动浏览所有引用位置并逐一修改为新名称。</p>
+<p>47在一个包含多个模块(如entry、feature、service、library等)的大型Harmonyos应用项目中，如果某个模块feature对另外一个公共库模块1ibrary有依赖，</p>
+<p>如何通过DevEcostudio正确配置项目依赖关系?(C)</p>
+<p>A无需配置，直接在代码中编写import xxx from&#39;library&#39;</p>
+<p>B在library的oh-package,json5文件的dependencies字段中配置feature的依赖</p>
+<p>C在feature的oh-package.json5文件的dependencies字段中配置library的依赖</p>
+<p>D在feature的build-profile.json5文件的dependencies字段中配置library的依赖</p>
+<p>48在使用DevEco studio的Profiler进行Harmonyos应用或服务内存管理优化时，以下哪个描述最准确地概述了“Allocation Insight”功能在识别和解决内存问题中的作用?</p>
+<p>(B)</p>
+<p>A Allocation Insight详细展示应用运行时的每条语句柄分配记录，便于开发者逐一检查内存使用，但不提供内存泄漏的自动识别功能</p>
+<p>B Allocation Insight通过分析应用服务运行时的内存分配及使用情况，辅助定位内存泄漏、内存抖动和溢出问题，支持优化内存使用</p>
+<p>C Allocation Insight主要关注于内存碎片整理，减少内存分配的不连续性问题，对内存泄漏和溢出问题的检测不是其主要功能</p>
+<p>D Allocation Insight仅提供内存分配总量的概览，帮助开发者宏观了解内存使用趋势，但对于具体泄漏或抖动问题无能为力</p>
+<p>49项目需要为不同的设备形态(如手机、智能手表)提供定制化构建。请说明如何在DevEcostudio中设置不同的构建配置，以生成针对不同设备的hap包?(A)</p>
+<p>A 在模块级别build-rofile.json5定义多个target，在每个target的config/deviceType中定义不同的设备类型</p>
+<p>B 在工程级别build-profile.json5定义多个product，在每个product的config/distributionFilter中定义不同的设备类型</p>
+<p>C 在模块级别build-profile,json5定义多个target，在每个target的config/distributionFilter中定义不同的设备类型</p>
+<p>D 在工程级别build-profile.json5定义多个product，在每个product的config/deviceType中定义不同的设备类型</p>
+<p>50下面的配置一共存在有几处错误？(2处错误) 7.16更新</p>
+<p>module.json5配置文件:</p>
+<pre><code class="language-javascript">{
+
+&quot;module&quot;:{&quot;name&quot;: &quot;entry&quot;,
+
+&quot;abilities&quot;:[{
+
+&quot;name&quot;: &quot;EntryAbility&quot;,
+
+&quot;srcEntry&quot;:&quot;./ets/entryability/EntryAbility.ets&quot;,
+
+&quot;skills&quot;:[
+
+{
+
+&quot;entities&quot;:[ &quot;entity.system.home&quot;],
+
+&quot;actions&quot;:[&quot;ohos.want.action.home&quot;]
+
+]}],
+
+&quot;metadata&quot;:[{
+
+&quot;name&quot;: &quot;ohos.entry.shortcuts&quot;,
+
+&quot;resource&quot;:&quot;$profile:shortcuts_config&quot;}
+
+]}]}}
+
+在/resources/base/profile/目录下配置shortcuts_config.json配置文件:
+
+{
+
+&quot;shortcuts&quot;:[
+
+{&quot;shortcutId&quot;: &quot;id_test1&quot;,
+
+&quot;label&quot;:&quot;shortcutLabel&quot;,
+
+&quot;icon&quot;:&quot;$media:shortcutIcon&quot;,
+
+&quot;wants&quot;:[{
+
+&quot;bundleName&quot;:&quot;com.ohos.hello&quot;,
+
+&quot;moduleName&quot;: &quot;entry&quot;,
+
+&quot;abilityName&quot;: &quot;EntryAbility&quot;
+
+}]}]}
+</code></pre>
+<p>2处错误：</p>
+<p>skills字段被错误地放置在了abilities数组的第一个元素的内部，它应该位于abilities数组外部，与abilities同级。</p>
+<p>metadata层级也有问题。</p>
+<p>51应用开发中使用的各类资源文件，需要放入特定子目录中存储管理，以下关于资源说法错误的是（A）</p>
+<p>A rawfile目录，支持创建多层子目录，子目录名称可以自定义，文件夹内可以自由放置各类资源文件。目录中的资源文件会被编译成二进制文件，并赋予资源文件ID。</p>
+<p>B resfile目录，应用安装后，resfile资源会被解压到应用沙箱路径，通过Context属性resourceDir获取到resfile资源目录后，可通过文件路径访问。</p>
+<p>C stage模型多工程情况下，共有的资源文件放到AppScope下的resources目录。</p>
+<p>D base目录是默认存在的目录，二级子目录element用于存放字符串、颜色、布尔值等基础元素，media、profile存放媒体、动画、布局等资源文件。</p>
+<p>A中资源文件不会被编译成二进制文件并赋予资源文件ID</p>
+<p>52通过aa工具拉起com.example.test的EntryAbility，并传参给EntryAbility，具体参数是number类型的[key1，1][key2,2]和string类型的[key3,teststring][key4,&quot;],</p>
+<p>下边ABCD哪个aa 命令是正确的？（D） 不带&quot;号的 7.15更新</p>
+<p>A aa start -b com.example.test -a EntryAbility --pi key1 1 --pi key2 2 --ps key3 testString --psn key4&quot;</p>
+<p>B aa start -b com.example.test -a EntryAbility --pi key1 1 key2 2 --ps key3 testString --psn key4</p>
+<p>C aa start -b com.example.test -a EntryAbility --pi key1 1 --pi key2 2 --ps key3 testString --ps key4</p>
+<p>D aa start -b com.example.test -a EntryAbility --pi key1 1 --pi key2 2 --ps key3 testString --psn key4</p>
+<p>53应用发生崩溃，接口可以获取到崩溃时调用栈  （C）</p>
+<p>A、hiDebug</p>
+<p>B、hiTraceMeter</p>
+<p>C、hiAppEvent</p>
+<p>D、hiLog</p>
+<p>54关于ArkUI的ForEach和LazyForEach，下列说法错误的是?(B)</p>
+<p>AForEach和LazyForEach会根据定义的键值生成规则为数据源的每个数组项生成唯一键值，并创建相应的组件。</p>
+<p>B长列表滚动场景，优先使用ForEach。</p>
+<p>C当在滚动容器中使用了LazyForEach，框架会根据滚动容器可视区域按需创建组件，当组件滑出可视区域外时，框架会进行组件销毁回收以降低内存占用。</p>
+<p>DLazyForEach需要配合cachedCount和组件复用一起使用，以达到性能的最优表现。</p>
+<p>55为了提高性能，所以List组件支持懒加载，可以通过配置cachedcount属性设置缓存列表项的数量。当我们不设置List的属性cachedcount时，该属性的默认值是?</p>
+<p>（B）</p>
+<p>A.0</p>
+<p>B.1</p>
+<p>C.2</p>
+<p>D.3</p>
+<p>56当标记了@Reuseable的自定义组件实现了组件复用后，这个组件的复用范围是什么?（A）</p>
+<p>A.标记了@Reuseable的自定义组件的父组件范围内</p>
+<p>B.整个页面都可以复用</p>
+<p>C.标记了@Reuseable的自定义组件的外层容器节点范围内</p>
+<p>D.整个应用内都可以复用</p>
+<p>57下面持续交付&amp;持续部署描述哪个是正确的:(C) 7.19更新</p>
+<p>A.持续交付可以随时随地部署到生产环境</p>
+<p>B.持续交付(CD,Continuous Delivery):指的是，频繁的将软件的新版本，交付给质量团队或者用户，以供评审。如果评审通过，代码就进入生产阶段。</p>
+<p>它强调的是，不管怎么更新，软件是随时随地可以交付的。</p>
+<p>C.在持续交付实践中，要考虑处理故障回滚和紧急修复，以确保系统在出现问题时能够快速恢复和修复。</p>
+<p>D.持续部署是将代码库中的任何更改都应该自动且快速地投入生产环境。持续部署等同于持续交付。</p>
+<p>58以下关于应用架构技术选型说法不正确的是(A) HSP</p>
+<p>A随着业务的发展，应用功能会越来越多，某些功能可以做成动态加载，动态加载的模块采用HAR工程来构建，方便复用和共享。</p>
+<p>B对于初始版本的应用，功能比较简单，可以考虑采用单HAP加上多个HAR工程构建代码工程,</p>
+<p>C元服务和应用可以共用一个代码工程，采用多目标产物构建方式，构建出应用和元服务两个产物，用于上架。</p>
+<p>D一些应用的扩展能力，比如备份、服务卡片，可以采用ExtensionAbility做成单独的feature HAP包，独立分发。</p>
+<p>59以下对系统兼容性的理解正确的是(C) A观点有点模糊 选了C</p>
+<p>A安全法律法规等不可控因素会导致系统非兼容性变更，开发者需要积极适配</p>
+<p>B系统能力都会保持绝对的兼容性，不能因为任何非兼容性的修改而导致开发者成本上升</p>
+<p>C已发布的系统能力有可能会发生非兼容性变更，比如新增特性或修改问题导致的行为不兼容，这种情况下应用需要关注changelog并进行适配。</p>
+<p>D应用不需要关注系统的兼容性变化，那都是系统开发人员需要关注的事情</p>
+<p>60某App有A、B、C、D四个团队分别负责ModuleA、ModuleB、ModuleC和ModuleD四个业务模块，随着业务的发展，ModuleA需要跳转到ModuleB、ModuleC的页面，ModuleB需要跳转到ModuleC、ModuleD的界面，ModuleC需要跳转到ModuleA的界面，ModuleD需要跳转到ModuleB和ModuleC的界面。</p>
+<p>由于复杂的依赖关系，导致一旦有变化就需要知会各个团队所以该团队的架构师想要解耦各个业务模块，以下哪些做法是不推荐的(D)</p>
+<p>A可以采用Navigation作为页面导航根容器，将其放在entry中，其他Module的页面作为Navigation的子页面。</p>
+<p>B采用RouterModule作为中介者并用动态import解耦各个业务模块。</p>
+<p>C在RouterModule中采用路由表方式解耦各个业务模块。</p>
+<p>D采用静态import方式引入对应跳转的页面。</p>
+<p>61关于短时任务开发使用的接口是（D）</p>
+<p>A使用startBackgroundRunning申请任务，使用stopBackgroundRunning取消任务</p>
+<p>B使用publishReminder发布一个提醒类通知，使用canceIReminder取消一个指定的提醒类通知</p>
+<p>C使用startWork申请任务，使用stopWork取消任务，使用getWorkStatus获取任务状态</p>
+<p>D使用requestSuspendDelay申请任务，使用getRemainingDelayTime获取任务剩余时间</p>
+<p>62如果想让outer button响应事件，hitTestBehavior该怎么配置 (C)</p>
+<p>import promptAction from &#39;@ohos.promptAction&#39;;</p>
+<p>// xxx.ets</p>
+<p>@Entry</p>
+<p>@Component</p>
+<p>struct HitTestBehaviorExample {</p>
+<p>  build() {</p>
+<p>   // outer stack</p>
+<p>   Stack() {</p>
+<p>     Button(&#39;outer button&#39;)</p>
+<p>       .onClick((event) =&gt; {</p>
+<p>          promptAction.showToast({ message:&#39;click事件触发------++++2‘ });</p>
+<p>         })</p>
+<p>   // inner stack</p>
+<p>   stack() {</p>
+<p>      Button(&#39;inner button&#39;)</p>
+<p>        .onTouch((event) =&gt; {</p>
+<p>          promptAction.showToast({ message: &#39;click事件触发------1&#39; });</p>
+<p>         })</p>
+<p>A.HitTestMode.Default</p>
+<p>B.HitTestMode.Block</p>
+<p>C.HitTestMode.Transparent</p>
+<p>D.HitTestMode.None</p>
+<p>63 从桌面冷启动如下应用，点击change按钮5次，整个过程中，代码中的2条log依次出现的次数，最初和最后画面上显示的【num=?】的数字是</p>
+<p>2,4 开头的  7.18更新
+2,4,1,6（不确定）</p>
+<p>64-1 已知下列代码PageOne页面为navigation中的某一子页面，依次点击PageOne页面中toPageTwo按钮，PageTwo页面中toPageOne按钮，</p>
+<p>此时点击get按钮获取全部名为name的NavDestination页面的位置索引为（[0,2]）</p>
+<p>64-2 此时获取当前页面的路由栈数量为多少 （3个） 7.18更新</p>
+<p>65 在Harmony0s应用开发中，当开发者遇到需要分析Release版本应用的崩溃或异常堆栈信息时，为了准确地将堆栈追踪信息对应到源代码的具体位置，以下哪个描述是正确的做法或理解？（B最长的）</p>
+<p>A、开发者需手动将Release构建生成的so文件与源代码进行映射，配合第三方工具进行堆栈信息还原，虽然过程繁琐，但最终能定位到问题代码位置</p>
+<p>B、DevEco Studio提供的Release应用堆栈解析功能，要求开发者在遇到问题时，需上传构建产物中的特定文件B(如so、source map、nameCache等)到指定工具或界面，借助这些文件辅助解析堆栈信息，实现从Release堆栈到源码的映射，便于快速定位问题</p>
+<p>C、因为Release应用经过优化和去除Debug信息，直接从堆栈跟踪到源代码行号是不可能的，开发者只能依靠日志信息手工推测问题所在</p>
+<p>D、DevEco Studio通过集成的Release应用堆栈解析功能，自动利用构建时产生的so文件、source map文件nameCache文件等，无需额外操作即可直接在Release应用中提供详细的源码级堆栈追踪信息</p>
+<p>66、ARKTS支持以下哪个函数？（A）</p>
+<p>Object.keys();或 Object.values()</p>
+<p>Object.getOwnPropertySymbols();</p>
+<p>Object.isPrototypeOf();</p>
+<p>Object.isExtensible();</p>
+<p>67、开发者张工想要高效地管理Harmonyos设备中的文件，包括查看文件列表、进行文件搜索、新建及删除操作，以及在设备与PC间传输文件，而无需使用命令行工具。</p>
+<p>以下哪个选项最能准确概括张工能通过哪个工具直接在DevEco studio界面完成上述所有操作？（A）</p>
+<p>A.DevEco Studio的Device File Browser</p>
+<p>B.DevEco Studio的Terminal面板</p>
+<p>C.DevEco Studio的Project Explorer</p>
+<p>D.DevEco Studio的Log面板</p>
+<p>68、在使用DevEco studio进行混合语言开发时，开发者小李通过Napi引用了Native 接口的文件(例如d.ts文件)。他想要直接从这些接口跳转到其对应的c/C++函数实现处进行代码审查。</p>
+<p>请从以下选项中选择最合适的操作步骤来帮助小李实现这一目标。（D最长的）</p>
+<p>A小李可以将鼠标光标置于想要查看实现的接口名称上，按下鼠标右键，在出现的上下文菜单中寻找并点击“Find Usages”(查找用法)，在结果中筛选出C/C++的实现。</p>
+<p>B为了查看C/C++函数实现，小李必须先切换到DevEco Studio的C/C++开发环境视图，之后在项目的资源管理B.器中找到对应的C/C++源文件手动打开，才能查看函数代码</p>
+<p>C小李应该打开包含TypeScript接口声明的文件，然后手动在项目中搜索相应的C/C++源文件，逐个检查以找到匹配的函数实现。</p>
+<p>D在声明或引用了Native接口的文件中，比如d.ts文件，小李可以直接选中接口名称，右键点击并在弹出的菜单中选择“Go To&gt;lmplementation(s)”(转到&gt;实现)。还可以使用快捷键Ctrl+Alt+B;如果是macOS用户，则使用Command+Option+B，直接跳转到对应的C/C++数实现位置。</p>
+<p>69、使用DevEco studio进行复杂的跨设备功能开发与调试工作，期间频繁依赖本地模拟器来模拟多样化的设备环境。</p>
+<p>在这样的背景下，以下关于DevEco studio本地模拟器所支持的规格与功能，哪一项描述是准确的？（C）7.15更新</p>
+<p>A.本地模拟器和真机的能力没有任何差异，真机上可以支持的能力在模拟器上都可以</p>
+<p>B本地模拟器当前不支持查看HiLog以及FaultLog</p>
+<p>C本地模拟器上运行的应用无需进行签名，简化了调试过程。</p>
+<p>D本地模拟器当前不支持单元测试框架和U测试框架的运行</p>
+<p>70、当前您在开发一个ArkTs、stage模型的Harmonyos工程，关于当前ArkTS工程目录结构，下列选项说法错误的是? (A) 7.18更新 A是配置文件不是脚本</p>
+<p>A build-profile.json5:应用级编译构建任务脚本。</p>
+<p>B entry&gt;src&gt;main&gt;module.json5:Stage模型模块配置文件，主要包含HAP的配置信息、应用在具体设备上的配置信息以及应用的全局配置信息。</p>
+<p>C oh-package.json5:描述依赖配置，如:依赖覆盖(overrides)、依赖关系重写(overrideDependencyMap)和参数化配置(parameterFile)等</p>
+<p>D AppScope&gt;app.json5:应用的全局配置信息。</p>
+<p>71、一个复杂的项目，该项目不仅包含主入口模块(EntryModule)，还有多个特性的功能模块(Feature Modules/HSP)，并且这些模块间存在着相互调用关系。</p>
+<p>为了确保在调试过程中能够完整地测试所有交互逻辑，需要将涉及到的所有模块的HAP包都部署到目标设备上。</p>
+<p>请从以下选项中选择正确的操作步骤来配置DevEco studio，以便一次性部署和调试项目中的多个模块。（A最长的）</p>
+<p>A进入“Run&gt; Edit Configurations&quot;菜单，在“Deploy Multi Hap”选项卡下，勾选“Deploy Multi HapPackages”，随后在列表中选择需要部署的模块。</p>
+<p>B直接点击运行按钮，DevEco Studio会弹出对话框询问需要部署哪些模块，从中选择需要的模块后开始调试。</p>
+<p>C在项目结构界面手动选择每个模块，单独编译并逐一将生成的HAP包通过HDC命令推送到设备上。</p>
+<p>D无需特殊配置，DevEco Studio会自动检测到项目中的所有模块依赖，并在每次调试运行时自动部署所有相关HAP包。</p>
+<p>72、应用程序开发调试过程中，经常需要安装新应用进行调测，下面安装应用操作错误的是（A） 7.15更新</p>
+<p>A. hdc install -p ohosapp.hap</p>
+<p>B. bm install -p ohosapp.hap</p>
+<p>C. bm install -p ohosapp.hap -r</p>
+<p>D. bm install -p /data/app/</p>
+<p>73、可以通过下面那个接口拉起导航类的垂域面板（B）</p>
+<p>A. startAbilityForResult</p>
+<p>B. startAbilityByType</p>
+<p>C. startAbilityByCall</p>
+<p>D. startAbility</p>
+<p>74、某个应用开发了一个UIAbilityA，其启动模式是specified，并且对应的AbilityStage的实现如下：</p>
+<pre><code class="language-javascript">import Abilitystage from&#39;@ohos.app.ability.AbilityStage&#39;;
+
+import type Want from &#39;@ohos.app.ability.Want&#39;;
+
+export default class MyAbilitystage extends Abilitystage {
+
+this.instanceIndex =0;
+
+onAcceptWant(want: Want):string{
+
+if(want.abilityName === &#39;UIAbilityA&#39;){
+
+if(want.parameters &amp;&amp; want.parameters.instanceKey === &#39;test&#39;){
+
+return &#39;test_instance_&#39; + this.instanceIndex++;
+
+}else { return&#39;test_instance&#39;; }}
+
+return &#39;MyAbilitystage&#39;;}}
+</code></pre>
+<p>依次调用如下方法4次启动UIAbi1ityA，value分别是&quot;test&quot;&quot;test”&quot;testA&quot;&quot;testA&quot;，则当前运行期UIAbility实例有几个？</p>
+<pre><code class="language-javascript">function testSpecified(context,value){
+
+let want: Want ={
+
+deviceId:&quot;,
+
+bundleName:&#39;com.samples.stagemodelabilitydevelop&#39;,
+
+abilityName: &#39;UIAbilityA&#39;,
+
+moduleName:&#39;entry&#39;,
+
+parameters:{
+
+instanceKey: value
+
+}
+
+};
+
+context.startAbility(want).then(()=&gt;{
+
+hilog.info(DOMAIN NUMBER, TAG, &#39;Succeeded in starting UIAbilityA.&#39;);
+
+}).catch((err:BusinessError)=&gt;{
+
+hilog.error(DOMAIN_NUMBER, TAG, &quot;Failed to start UIAbilityA. code is ${err.code})
+
+})
+
+}
+</code></pre>
+<p>3个实例。（两次testA应该只启动同一个实例，所以3和4，选了3）</p>
+<p>75、作为应用开发者，你使用hiAppEvent订阅了崩溃事件。应用崩溃后，从onReceive接口返回的AppEventInfo中(D)属性可以获取崩溃调用栈信息。</p>
+<p>A.name</p>
+<p>B.eventType</p>
+<p>C.domain</p>
+<p>D.params</p>
+<p>76、我们需要避免在逐帧调用的接口中执行耗时操作，下面哪个选项不属于上述的接口?（D）</p>
+<p>A、onTouch</p>
+<p>B、onScroll</p>
+<p>C、onAreaChange简化了调试过程</p>
+<p>D、aboutToReuse</p>
+<p>77、以下关于HAP(Harmony Ability Package)说法正确的是(A)</p>
+<p>A.应用工程如果包含多个Module，在应用i汤上架时，会将多个.hap文件打包成一个.app文件。</p>
+<p>B.应用工程编出的app文件中，只能包含一个hap文件。</p>
+<p>C.HAP是应用安装和运行的基本单位，在DevEco Studio工程目录中，一个HAP对应一个Module。应用打包时，所有的Module都只能生成.hap文件。</p>
+<p>D.DevEco Studio会在编译构建时，不需要对HAP进行一致性校验。</p>
+<p>78、某业务团队的架构师发现某个特性用的频率比较少，但是这个特性占用空间资源还是比较大的。为了减少首包下载体积，准备将该特性解耦出来，</p>
+<p>并对外提供API方便主模块调用。以下说法正确的是(D) 7.15更新</p>
+<p>A.将该特性做成hap包，通过Ability组件暴露出来给主app使用。</p>
+<p>B.将该特性做成H5模块，通过web组件加载远程资源使用，</p>
+<p>C.将该特性做成动态加载的har包，暴露接口给主模块使用。</p>
+<p>D.将该特性做成按需加载的hsp包，暴露接口给主模块使用。</p>
+<p>79、以下Websocket连接开发的步骤顺序，描述错误的是？（AB）顺序错误</p>
+<p>A.创建一个WebSocket连接，返回一个WebSocket对象</p>
+<p>B.导入需要的webSocket模块</p>
+<p>C.根据URL地址，发起WebSocket连接</p>
+<p>D.(可选)订阅WebSocket的打开、消息接收、关闭、Error事件</p>
+<p>E.使用完WebSocket连接之后，主动断开连接</p>
+<p>F.调用Session.start方法开启metadata数据输出</p>
+<p>80、项目中涉及多个类的继承与重写。为了快速实现子类对父类方法的重写，小华想利用DevEco studio提供的便捷功能来提高开发效率。他了解到，通过一个特定的操作流程，</p>
+<p>可以直接依据父类的模板生成子类中需要重写的方法代码，而无需手动编写完整方法体，在DevEcostudio中，</p>
+<p>如何正确使用Override Methods功能来快速生成子类需要重写的方法代码？（A）</p>
+<p>A.将光标定位到子类的定义处，按下Ctrl+0(或右键单击选择Generate..&gt;Override Methods)，在弹出的对话框中选择要重写的方法，点击OK完成生成。</p>
+<p>B.在项目结构视图中找到目标子类，双击打开后直接在代码编辑区输入重写方法的签名，DevEco Studio将自动完成剩余代码。</p>
+<p>C.将光标放置于任何代码行，按下Ctr1+B，然后在弹出菜单中选择Override Methods，之后勾选需要重写的方法并确认。</p>
+<p>D.通过菜单栏File&gt;Settings，配置Override Methods快捷方式，之后在代码中仅需选中父类方法名，即可自动在子类中生成重写代码。</p>
+<p>81、项目需要同时进行应用和元服务的开发，并针对当前项目工程中的代码可以分别构建出应用和元服务的包，</p>
+<p>如何在DevEco studio中设置不同的构建配置，达成这个目的（A）</p>
+<p>A.在工程级别build-profile.json5定义两个product，将两个product的bundleType分别设置成app和atomicService</p>
+<p>B.在模块级别build-profile.json5定义两个target，将两个target的bundleType分别设置成app和atomicService</p>
+<p>C.修改工程级别的AppScope/app.json5中的bundleType值为atomicService</p>
+<p>D.修改工程级别的AppScope/app.json5中的bundleType值为app</p>
+<p>82、DevEco Studio提供HarmonyOS应用/服务的UI预览界面与源代码文件间的双向预览功能，支持ets文件与预览器界面的双向预览。关于双向预览，下列选项说法错误的是？</p>
+<p>关于双向预览，下列选项说法错误的是?(B)</p>
+<p>A.选中组件树中的组件，则对应的代码块和UI界面也会高亮显示</p>
+<p>B.双向预览不支持通过组件的属性面板实时修改属性或样式</p>
+<p>C.选中布局文件中的代码块，则在U界面会高亮显示，组件树上的组件节点也会呈现被选中的状态。</p>
+<p>D.选中预览器U界面中的组件，则组件树上对应的组件将被选中，同时代码编辑器中的布局文件中对应的代码块高亮显示。</p>
+<p>83、关于代码门禁理解正确的是:（B 同事工作）</p>
+<p>A.门禁级检查的范国和版本级检查的范围保持一致、尽可能多的在MR门禁阶段就拦截防护住问题，保障问题可以及时清理掉。</p>
+<p>B.代码门禁则是在代码含并之前就验证代码来保护生干分支的究整性。通过这种方式，可以保护主分支代码避免因合码导致的构建中断，以确保 master分支代码始终是可部署的，并且不会因明显的错误而影响到你正在并行开发的同事工作。</p>
+<p>C.代码门禁是一项代码质量保随措施。目的是要求开发人员提交的代码必须满足一些要求才能合入代码仓库。门禁必须强制要求包括编译通过、单元测试覆盖率达标、代码静志检查无告警、全量功能测试用例、DFX专项测试都通过。</p>
+<p>D.标准 CI构建是在代码会并后检壹已提交代码的功能完整性，这种方法会导致代码合井到master后编译失败导致没有可用版本部署。通过提高滚动构建的频度就可以代替代码门禁，保代码主千及时发现并解决问题。</p>
+<p>84、一个应用项目工程中，模块依赖关系如所示：</p>
+<p>1、A(entry)模块依赖于B(har)、C(har)、D(shared)</p>
+<p>2、D(shared)模块依赖于C(har)</p>
+<p>那么在最终编译结果.app文件中，存在的编译产物是哪种？ （第一种）</p>
+<p>第一种：a.hap + d.hsp</p>
+<p>第二种：A.hap+ D.hsp +C.har</p>
+<p>第三种：A.hap +B.har +C.har + D.hsp</p>
+<p>第四种：A.hap + B.har + D.hsp</p>
+<p>85、张工在使用DevEco studio开发Harmony0s应用时，遇到了代码编译警告和错误。为了提高开发效率，</p>
+<p>哪一项正确描述了张工如何利用DevEco studio的Quick Fix功能来有效管理和修复代码中的问题?(B)</p>
+<p>A.张工应该首先使用Ctrl+Shift+F快捷键全局搜索问题，然后手动在搜索结果中找出代码警告和错误的原因及位置。</p>
+<p>B.张工通过双击Shift键打开搜索框，输入&quot;problems”打开问题工具面板，双击具体告警条目可直接跳转到问题代码行。接着，将光标置于告警位置，利用弹出的悬浮窗选择合适的修复建议或点击“More actions”以查看更多修复选项。</p>
+<p>C.张工只需在代码编辑界面按下F1键，DevEco Studio会自动识别当前光标所在行的错误并直接修复。</p>
+<p>D.张工在代码编辑界面看到红色波浪线标记的错误时，直接右键点击错误代码，选择“Delete Line”以移除错误代码行，从而“修复”问题。</p>
+<p>86、开发者小林正在使用DevEco studio开发一款Harmony0s应用，并在真机上进行调试。他在运行应用的过程中突然发现一处UI布局需要微调，希望在不中断当前应用运行的情况下看到调整效果，</p>
+<p>基于DevEcostudio提供的Hot Reload(热重载)能力，以下哪一种做法能让小林最有效地实现他的需求？（C）</p>
+<p>A.使用模拟器替代真机进行调试，因为Hot Reload仅在模拟器上支持代码改动的即时生效</p>
+<p>B.继续运行应用，手动重启应用后检查布局是否符合预期</p>
+<p>C.在不关闭应用的情况下，直接修改代码并保存，借助Hot Reload功能在真机上实时查看布局调整的效果</p>
+<p>D.立即停止应用，修改代码后重新编译并部署到真机上</p>
+<p>87、一个应用有2个UlAbility组件，其module.json中abilities标签的配置如下方代码。</p>
+<p>在手机设备上，执行如下操作后:</p>
+<p>1.启动UlAbility1，然后back键返回销毁UIAbility1;</p>
+<p>2.启动UlAbility2,然后back键返回销毁UIAbility2;</p>
+<p>3.启动UlAbility2,然后back键返回销毁UIAbility2;</p>
+<p>进入多任务列表，能看看到该应用的几个任务视图:  (3个) 7.16更新（可能1不确定）、</p>
+<p>88、在UIAbility的onCreate生命周期中通过EventHub的on注册&quot;event1&quot;和&quot;event2&quot;事件。 (A)7.15更新</p>
+<pre><code class="language-javascript">import{hilog}from&#39;@kit.PerformanceAnalysisKit&#39;;
+
+import{UIAbility,Want,AbilityConstant} from&#39;@kit.AbilityKit&#39;;
+
+const DOMAIN_NUMBER:number = 0xFF00;
+
+const TAG: string =&#39;[EventAbility]&#39;;
+
+export default class EntryAbility extends UIAbility{
+
+ onCreate(want:Want,launchParam:AbilityConstant.LaunchParam):void{
+
+  //获取UIAbility实例的上下文
+
+  let context = this.context;
+
+  //获取eventHub
+
+  let eventhub=this.context.eventHub;
+
+  //执行订阅操作
+
+  eventhub.on(&#39;event1&#39;,this.eventFunc);
+
+  eventhub.on(&#39;event2&#39;,this.eventFunc);
+
+  hilog.info(DOMAIN_NUMBER,TAG,&#39;%{public}s&#39;,&#39;AbilityonCreate&#39;);
+
+ }
+
+ eventFunc(argOne:Context,argTwo:Context):void{
+
+  hilog.info(DOMAIN_NUMBER,TAG,&#39;receive.&#39;+`${argOne},${argTwo}`);
+
+  return;
+
+ }
+
+}
+</code></pre>
+<p>2.在Ul组件的click处理事件中调用如下的eventHubFunc，连续点击2次该控件后，运行日志输出是ABCD中的哪项？</p>
+<pre><code class="language-javascript">import common from &#39;@kit.AbilityKit&#39;;
+
+import{promptAction} from &#39;@kit.ArkUI&#39;
+
+@Entry
+
+@Component
+
+struct Page_EventHub {
+
+ private context=getContext(this) as common.UIAbilityContext;
+
+ eventHubFunc():void{
+
+  this.context.eventHub.emit(&#39;event1&#39;);
+
+  this.context.eventHub.emit(&#39;event2&#39;,2,&#39;test2&#39;);
+
+  this.context.eventHub.off(&#39;event1&#39;);
+
+ }
+
+ build() {
+
+  Column(){
+
+   // ...
+
+   List({initialIndex:0}){
+
+    ListItem(){
+
+     Row(){
+
+      // ...
+
+     }
+
+     .onClick(() =&gt; {
+
+      this.eventHubFunc()
+
+      promptAction.showToast({
+
+       message:$r(&#39;app.string.EventHubFuncA&#39;)
+
+      })
+
+     })
+
+    }
+
+   }
+
+  }
+
+ }
+
+}
+</code></pre>
+<p>A、</p>
+<pre><code class="language-javascript">[Example].[Entry].[EntryAbility]receive.[]
+
+[Example].[Entry].[EntryAbility] receive.[2,&quot;test2&quot;]
+
+[Example].[Entry].[EntryAbility] receive.[2,&quot;test2&quot;]
+
+</code></pre>
+<p>B、</p>
+<pre><code class="language-javascript">[Example].[Entry].[EntryAbility]receive.[]
+
+[Example].[Entry].[EntryAbility]receive.[2,&quot;test2&quot;]
+
+[Example].[Entry].[EntryAbility]receive.[]
+</code></pre>
+<p>C、</p>
+<pre><code class="language-javascript">[Example].[Entry].[EntryAbility]receive.[]
+
+[Example].[Entry].[EntryAbility] receive.[2,&quot;test2&quot;] 
+</code></pre>
+<p>D、</p>
+<pre><code class="language-javascript">[Example].[Entry].[EntryAbility]receive.[]
+
+[Example].[Entry].[EntryAbility]]receive.[2,&quot;test2&quot;]
+
+[Example].[Entry].[EntryAbility]receive.[]
+
+[Example].[Entry].[EntryAbility]]receive.[2,&quot;test2&quot;]
+</code></pre>
+<p>89、关于自动化测试描述正确的是: （C） 7.15更新</p>
+<p>A.DT(开发者测试)就是UT，可看护的范围包括边界值问题、空指针或赋值错误内部业务逻辑问题等等。</p>
+<p>B.自动化测试因提高效率，减少重复工作的特性而被广泛采用:自自动化测可以替代手动测试在处理复杂、难以预测的用户交互或特殊边界条件。</p>
+<p>C.XTS子系统是认证测试套件的集合，当前包括acts(application compatibilitytest suite)应用兼容性测试套件，后续会拓展dcts(device compatibility testsuite)设备兼容性测试套件等。</p>
+<p>D.Fuzz测试就是通过构造不规则的输入，从而触发程序的某种bug;Fuzz测试属于白盒测试。Fuzz测试也叫做模糊测试，通过输入非法字段，并观察软件是否异常来实现。一方面可以通过向软件输入非法字段，另一方面也可以通过向网络服务发送异常报文。</p>
+<p>90、以下关于动态import说法正确的是(C)</p>
+<p>A.动态import不支持导入SDK的API，如@ohos.*</p>
+<p>B.动态import支持懒加载，所以不能用于提升页面的加载速度。</p>
+<p>C.动态import支持加载HSP模块、HAR模块、OHPM包、Native库</p>
+<p>D.动态import和静态import相比，灵活性更好，性能更好。</p>
+<p>91、以下示例代码中可以进行动画的属性有哪些?(1、2、3都可以)</p>
+<pre><code class="language-javascript">@Componentstruct MyComponent{
+
+@state compwidth:number=100;
+
+@state compHeight:number=100;
+
+@State compRadius:number=32;
+
+build(){
+
+Column(){}
+
+.width(this.compWidth)//1
+
+.height(this.compHeight)//2
+
+.animation({curve:Curve.Ease,duration:280})
+
+.borderRadius(this.compRadius)//3
+
+.onclick(()=&gt;{this.compwidth += 10;
+
+this.compHeight +=10;
+
+this.compRadius += 4;
+
+})
+
+}
+
+}
+</code></pre>
+<p>92、Harmonyos应用开发团队正着手优化一款面向全球市场的在线教育应用，该应用在特定课程直播环节出现了性能波动和响应延迟的问题，严重影响用户体验。</p>
+<p>打算利用DevEco Profiler来进行性能优化。DevEco Profiler其设计核心和主要优势是什么？（B）</p>
+<p>A.DevEco Profiler主要是一个自动化修复工具，能自动检测并解决所有HarmonyOS应用的性能问题</p>
+<p>B.DevEco Profier依据Top-Down设计理念，通过高度整合的数据展示范式，提供从宏观到微观的性能数据分析，加速开发者定位和解决问题的过程</p>
+<p>C.DevEco Profiler采用Bottom-Up设计原则，从底层代码细节开始逐步构建性能模型</p>
+<p>D. DevEco Profiler专注于用户界面设计的美化，使开发者操作更为直观</p>
+<p>93、在组件中，经常需要使用字符串、图片等资源。HSP中的组件需要使用资源时，一般将其所有资源放在HSP包内，</p>
+<p>而非放在HSP的使用方处，以符合高内聚低耦合的原则。下面访问HSP资源错误的是(B)</p>
+<p>A.通过$r访问HSP中的资源。Image($r(&#39;app.media.example&#39;)) .id(&#39;example&#39;) .borderRadius(&#39;48px&#39;)</p>
+<p>B.使用相对路径的方式，访问HSP中的资源。Image(&quot;../../resources/base/media/example.png&quot;) .id(&#39;example&#39;) .borderRadius(&#39;48px&#39;)</p>
+<p>C.挎包访问HSP内资源时，推荐实现一个资源管理类，以封装对外导出的资源。</p>
+<p>  将需要对外提供的资源封装为一个资源管理类：</p>
+<p>  //library/src/main/ets/ResManager.ets</p>
+<p>  export class ResManager{</p>
+<p>    static getPic():Resource{</p>
+<p>     return $r(&#39;app.media.pic&#39;);</p>
+<p>    }</p>
+<p>    static getDesc():Resource{</p>
+<p>     return $r(&#39;app.string.shared_desc&#39;);</p>
+<p>    }</p>
+<p>   }</p>
+<p>  对外暴露的接口，需要在入口文件index.ets中声明：</p>
+<p>  // library/index.ets</p>
+<p>  export{ResManager}from&#39;./src/main/ets/ResManager&#39;;</p>
+<p>94、在方舟字节码的函数调用规范中，前三个参数表示的含义分别是：（D）</p>
+<p>A.new.Target、this、函数对象本身</p>
+<p>B.new.Target、函数对象本身、this</p>
+<p>C.this、函数对象本身、new.Target</p>
+<p>D.函数对象本身、new.Target、this</p>
+<p>95、开发者小张正在使用DevEco Studio开发一款Harmony0S应用，他遇到了一个仅在应用实际运行环境中出现的问题，需要调试已部署在设备上的应用以定位问题根源，</p>
+<p>为了能够在应用已经运行的情况下介入调试，小张应该采用哪种调试方法？（C）</p>
+<p>A. 使用&quot;Profile&quot;功能，因为这同样能提供对运行时应用的监控与调试能力。</p>
+<p>B. Run without Debugging，先让应用自由运行，随后手动附加调试器</p>
+<p>C. Attach Debugger to Process，这允许他连提到正在运行的应用进程进行调试。</p>
+<p>D. 使用Debug功能，将应用重新推包运行调试。</p>
+<p>96、在开发HarmonyOS应用工程时，随看业务的发展，现在需要创建一个模块，关于在DevEco Studio中创建Module，</p>
+<p>下列选项哪种方式是错误的?（A）</p>
+<p>A. 在hvigor目录下，单击鼠标右键，选择New&gt;Module，创建新的Module;此时module将创建在该文件目录下。</p>
+<p>B. 在工程根目录下创建一个新的Directory，可在该目录下单击鼠标右键，选择New&gt;Module-，创建斯的Module，收时module将销建在该文件且录下。</p>
+<p>C. 选中工程目录中任意文件，然后在菜单栏选择File &gt; New &gt; Module，开始创建新的Module，此时该module将创建在工程根目录下。</p>
+<p>D. 鼠标移到工程目录顶部，单击鼠标右键，选择New&gt;Module-，开始创建新的Module，此时设module将创建在工程根目录</p>
+<p>97、在一个包含多个模块（如entry、feature、har、hsp等）的大型Harmonyos应用项目中，如果要对某个静态共享模块构建出静态构建包产物，</p>
+<p>如何通过DevEcoStudio进行构建？</p>
+<p>A.选中har模块，点击build菜单栏make module &#39;har&#39;</p>
+<p>98、关于延时任务开发使用的接口是</p>
+<p>使用startWork申请任务，使用stopWork取消任务，使用getWorkStatus获取任务状态</p>
+<p>99、代理提醒</p>
+<p>使用publishReminder发布一个提醒类通知，使用cancelReminder取消一个指定的提醒类通知</p>
+<p>100、关于静态检查描述错误的是:</p>
+<p>A.静态检查 可以检测代码中的语法错误和潜在的逻辑错误，也支持检测代码在运行时现的错误，因此静态检查可以替代动态测试。</p>
+<ul>
+<li>多选题（20道 3分一道 比较重要）</li>
+</ul>
+<p>1.哪些是持续集成最佳实践？ 717更新</p>
+<p>除了Pipeline、专职Ops外所有。</p>
+<p>2.Navigation组件说法正确的是（Navigation和Router）：</p>
+<p>三种显示模式、来自不同module、支持column/row</p>
+<p>3.下面关于Module的说法正确的是（4个选项开头为Static Library、Shared Library、entry、feature)</p>
+<p>关于feature、Static Library、Shared Library3个的描述是正确的</p>
+<p>4.关于TaskPool和Worker的描述正确的是（多线程）：</p>
+<p>TaskPool支持任务优先级</p>
+<p>Worker时长上线无限制</p>
+<p>5.用户购买商品后，你需要及时发放相关权益。但实际应用场景中，若出现异常将导致应用无法知道用户实际是否支付成功，从而无法及时发放权益，即出现掉单情况。</p>
+<p>为了确保权益发放，你需要在以下哪些场景检查用户是否存在已购未发货的商品:(ABC)</p>
+<p>A、createPurchase请求返回1001860051-由于已经拥有该商品，购买失败时</p>
+<p>B、createPurchase请求返回1001860001-内部错误时</p>
+<p>C、应用启动时</p>
+<p>D、finishPurchase请求返回1001860052-由于未拥有该商品，发货失败时</p>
+<p>6.以下哪几个代码段可以实现ArkWeb同层渲染能力(CD) 7.15 更新(&quot;object&quot;,test&quot;) + embed id 这两个选项</p>
+<pre><code class="language-javascript">
+代码段A:
+
+Web(...).enableNativeEmbedMode(true)
+
+&lt;object id=&quot;view&quot; type=&quot;native/contents&quot; width=&quot;100%&quot; height=&quot;100%&quot;style=&quot;background-color:red&quot;/&gt;
+
+
+
+代码段B:
+
+Web(...).enableNativeEmbedMode(true).registerNativeEmbedRule(&quot;native&quot;,test&quot;)
+
+&lt;object id=&quot;view&quot; type=&quot;native/contents&quot; width=&quot;100%&quot; height=&quot;100%&quot;style=&quot;background-color:red&quot;/&gt;
+
+
+
+代码段C:
+
+Web(...).enableNativeEmbedMode(true).registerNativeEmbedRule(&quot;object&quot;,test&quot;)
+
+&lt;object id=&quot;view&quot; type=&quot;test/contents&quot; width=&quot;100%&quot; height=&quot;100%&quot;style=&quot;background-color:red&quot;/&gt;
+
+
+
+代码段D:
+
+Web(...).enableNativeEmbedMode(true)
+
+&lt;embed id=&quot;view&quot; type=&quot;native/contents&quot; width=&quot;100%&quot; height=&quot;100%&quot;style=&quot;background-color:red&quot;/&gt;
+
+</code></pre>
+<p>7.下面关于混淆的描述正确的是哪几项（AD） 7.19更新</p>
+<p>A、修改应用混淆配置，新配置需要重新全量编译应用才能生效</p>
+<p>B、可以在HAR模块工程的build-profile.json5中的obfuscation.consumerFiles字段中配置导出的混淆配置，该配置仅在编译依赖该HAR的模块时生效。</p>
+<p>C、在工程build-profile.json5中的obfuscation.ruleOptions.files字段中配置该工程的混淆配置，该配置仅在编译该工程时生效。</p>
+<p>D、支持顶层作用域名称、属性名称、文件名称等多种混淆功能</p>
+<p>8.以下代码片段哪几处违反了ArkTS语法规范（ACD）</p>
+<pre><code class="language-javascript">
+function foo(value1: number,value2: number){
+
+return value1 + value2;
+
+}
+</code></pre>
+<p>A foo();</p>
+<p>B foo(1,2);</p>
+<p>C foo(1,2,3);</p>
+<p>D foo(1,2,3,4);</p>
+<p>9.在ArkTS中，以下哪些声明类的方式是正确的?(c1 c2)</p>
+<pre><code class="language-javascript">
+class c1{value:number =0;}
+
+
+
+class C2{value: number;
+
+
+
+constructor(value:number){this.value = value;}}
+
+
+
+class C3{constructor(value:number){this.value = value;}}
+
+
+
+class c4{
+
+
+
+value: number;}
+</code></pre>
+<p>10.下面代码块符合Node-API开发规范的是（AD）（Demo2 和 Demo3） 7.16更新</p>
+<pre><code class="language-javascript">代码块A：
+
+static napi_value Demo1(napi_env env, napi_callback_info info)
+
+{size_t argc;napi_value argv[10]={nullptr};napi_get_cb_info(env,info,&amp;argc, argv, nullptr, nullptr);return nullptr;}
+
+代码块B：
+
+static napi_value Demo4(napi_env env, napi_callback_info info)
+
+{size_t argc=5;napi_value argv[3]={nullptr};napi_get_cb_info(env,info,&amp;argc, argv, nullptr, nullptr);return nullptr;}
+
+代码块C：
+
+static napi_value Demo2(napi_env env, napi_callback_info info)
+
+{size_t argc =0;
+
+napi_get_cb_info(env,info,&amp;argc, nullptr, nullptr, nullptr);
+
+if(argc ==0){return nullptr;}
+
+napi_value* argv = new napi value[argc];
+
+napi_get_cb_info(env,info,&amp;argc, argv, nullptr, nullptr);
+// 业务代码
+
+return nullptr;}
+
+代码块D：
+
+
+
+static napi_value Demo3(napi_env env, napi_callback_info info)
+
+{size_t argc =2;napi_value argv[2]={nullptr};
+
+napi_get_cb_info(env,info, &amp;argc, nullptr, nullptr, nullptr);
+// 业务代码
+
+return nullptr;}
+</code></pre>
+<p>11.以下数据类型中，哪些是Sendable数据。(ABC) 7.16更新</p>
+<p>import{ lang }from &#39;@kit.ArkTs&#39;;</p>
+<p>class c{}</p>
+<p>interface I extends lang.ISendable {}</p>
+<p>A. interface l</p>
+<p>B. number</p>
+<p>C. string</p>
+<p>D. class C</p>
+<p>12.项目组开发的Harmonyos应用工程，为了保护hap代码资产，如何在DevEcostudio中启用混淆的功能，并设置相应的混淆规则（CD）</p>
+<p>A、在混淆规则配置文件consumer-rules.txt中进行混淆规则的配置</p>
+<p>B、release模式下将buildOption/arkOptions/ruleOptions/enable设置为false</p>
+<p>C、在混淆规则配置文件obfuscation-rules.txt中进行混淆规则的配置</p>
+<p>D、release模式下将buildOption/arkOptions/ruleOptions/enable设置为true</p>
+<p>A中consumer-rules.txt文件主要用于库（library）项目，指定库在被其他项目依赖时应用的混淆规则。</p>
+<p>但对于应用项目本身，主要使用obfuscation-rules.txt来配置混淆规则。所以A我没选。</p>
+<p>13、使用如下的代码去启动一个ability时，下面哪种代码块中skills定义的组件能够被匹配到:(ABCD) 717更新</p>
+<pre><code class="language-javascript">let want ={
+
+&quot;uri&quot;:&quot;https:// www.test.com: 8080/query/books&quot;,
+
+&quot;type&quot; : &quot;text/plain&quot;}
+
+context.startAbility(want).then((data))=&gt;{console.log(TAG +&quot;startAbility success&quot;);
+
+}).catch((err))=&gt;{
+
+console.log(TAG + &quot;startAbility failed.&quot;);
+
+}
+</code></pre>
+<pre><code class="language-javascript">
+代码块A：
+
+&quot;skills&quot;:[ {
+
+&quot;uris&quot;:[{
+
+&quot;scheme&quot;: &quot;https&quot;,&quot;host&quot;:&quot;www .test.com&quot;,&quot;pathstartwith&quot; :&quot;query/books&quot;,&quot;type”:&quot;text/*”}
+
+]}]
+
+
+代码块B：
+
+&quot;skills&quot;:[ {
+
+&quot;uris&quot;:[ {
+
+&quot;scheme&quot;: &quot;https&quot;,&quot;type” :&quot;text/*&quot;}]}]
+
+
+
+代码块C：
+
+&quot;skills&quot;:[ {
+
+&quot;uris&quot;:[ {
+
+&quot;scheme&quot;:&quot;https&quot;,&quot;host&quot;:&quot;www .test.com&quot;,&quot;pathstartwith&quot; :&quot;query/books&quot;,&quot;type&quot; :&quot;text/plain&quot;
+
+}]}]
+
+
+
+代码块D：
+
+&quot;skills&quot;:[ {
+
+&quot;uris&quot;:[ {
+
+&quot;scheme&quot;:&quot;https&quot;,&quot;host&quot;:&quot;www .test.com&quot;,&quot;type&quot; :&quot;text/plain&quot;
+
+}]}]
+
+</code></pre>
+<p>14、出于安全因素考虑，ArkTs不支持以下哪些语法？(CD) 7.19更新</p>
+<p>new Function(&#39;a&#39; , &#39;b&#39;, &#39;return a + b&#39;)</p>
+<p>Object.entries()</p>
+<p>eval()</p>
+<p>with()</p>
+<p>15、ArkTs对并发编程API和能力进行了增强，以下描述正确的是?（AD） 7.16确认</p>
+<p>A.在并发API的形式上，目前主要有两种:Worker和TaskPool</p>
+<p>B.单次I/O任务的开发场票中，必须使用TaskPool进行开发。</p>
+<p>C.默认情况下，Sendable数据在ArKTS并发实例间(包括主线程、TaskPool&amp;Worker工作线程)传递的行为是拷贝传选。</p>
+<p>D.CPU密集型任务场豪中，当在务不需要长时间(3分钟)占据后台线程，而是一个个独立的任务时，推荐使用TaskPool进行开发。</p>
+<p>16、下面代码符合ArkTS编程规范的是? (ABCD)</p>
+<p>const arr =[1,2,3];</p>
+<p>if(flag){//..}else {//..}</p>
+<p>function fight(): void {console.log(&quot;Swooosh!&quot;);}</p>
+<p>if(isJedi){fight();}</p>
+<p>17、以下ABCD代码片段哪几处违反了ArkTS语法规范? (BCD)</p>
+<pre><code class="language-javascript">class Point {
+
+public x: number;public y: number;
+
+constructor(x:number,y:number){
+
+this.x = x
+
+this.y = y
+
+}}
+</code></pre>
+<p>代码A：let p=new Point(1.0,1.0);</p>
+<p>代码B：delete p.x;</p>
+<p>代码C：p.z=2.0;</p>
+<p>代码D：p.x=&#39;He11o!&#39;;</p>
+<p>18、关于混淆的描述正确的是：（ABCD）全选 7.19更新</p>
+<p>B针对工程源码的混淆可以降低工程被破解攻击的风险，缩短函数名、类名和属性名，减小应用的大小。</p>
+<p>D代码混淆已经被集成了到SDK中，可以在DevEco Studio中方便地使用。</p>
+<p>19、在ArkTS中，以下A、B、C、D个代码片段正确的是</p>
+<p>BD正确</p>
+<pre><code class="language-javascript">
+
+代码段B：
+
+function fn(x:string): string {
+
+return x;
+
+}
+
+type funcType =(ns:string|number)=&gt; string;
+
+let func: funcType =fn;
+</code></pre>
+<pre><code class="language-javascript">代码段D：
+
+function fn(x:string |number): string {
+
+return &#39;value:&#39; + x;
+
+}
+
+type funcType=(ns:string|number)=&gt;string;
+
+let func:funcType =fn;
+</code></pre>
+<p>20、应用开发的有些场景中，如果希望根据条件导入模块或者按需导入模块，可以使用动态导入代替静态导入，下面导入场景中适合使用动态import的是（ABCD）</p>
+<p>A.当被导入的模块，在加载时并不存在，需要异步获取。</p>
+<p>B.当静态导入的模块很明显的降低了代码的加载速度且被使用的可能性很低，或者并不需要马上使用它。</p>
+<p>C.当静态导入的模块很明显的占用了大量的系统内存且被使用的可能性很低</p>
+<p>D.当被导入的模块说明符，需要动态构建。</p>
+<p>21、方舟字节码文件格式，描述正确的是：</p>
+<p>uint16_t、二进制产物</p>
+<p>22、以下4个代码片段哪几个函数违反了ArkTS语法规范:(foo1、foo4) 7.15更新</p>
+<pre><code class="language-javascript">function foo1(value1?: number, value2: number){
+
+if(value1 == undefined){
+
+return value2;}
+
+return value1 + value2;}
+</code></pre>
+<pre><code class="language-javascript">function foo4( ...array: number[],value: number){
+
+return value;
+
+}
+</code></pre>
+<pre><code class="language-javascript">function foo2(value1: number, value2?: number){
+
+if(value2 == undefined){
+
+return value1;}
+
+return value1 + value2;}
+</code></pre>
+<pre><code class="language-javascript">function foo3(value: number, ...array: number[]){return value}
+</code></pre>
+<p>23、ArkTS中，哪些属性声明是正确的：</p>
+<p>短的两个1、4</p>
+<p>24、ArkTS中的import用法，正确的是：</p>
+<p>ABCD</p>
+<p>import { export1 } from &quot;ets file name&quot;</p>
+<p>import { export1 as alias1 } from &quot;ets file name&quot;</p>
+<p>import * as name from &quot;ets file name&quot;</p>
+<p>import defaultExport from &quot;ets file name&quot;</p>
+<p>25、可显示图片的代码，AC选项 7.18更新</p>
+<pre><code class="language-javascript">A.
+@Entry
+@Component
+struct ImageExample {
+  build() {
+    Column({ space: 10 }) {
+      Image($r(‘app.media.earth’))
+      .width(100)
+        .height(100)
+    }
+  }
+}
+
+B.
+@Entry
+@Component
+struct ImageExample {
+  build() {
+    Column({ space: 10 }) {
+      Image(“https://www.example.com/xxx.png”)
+      .width(100)
+        .height(100)
+    }
+  }
+}
+
+C.
+import image from ‘@ohos.multimedia.image’
+@Entry
+@Component
+struct ImageExample {
+  @State imagePixelMap: image.PixelMap | undefined = undefined
+
+  async aboutToAppear() {
+    this.imagePixelMap = await this.getPixmapFromMedia($r(‘app.media.app_icon’))
+  }
+
+  build() {
+    Column() {
+      Image(this.imagePixelMap)
+        .width(200)
+        .height(200)
+    }
+  }
+  private async getPixmapFromMedia(resource: Resource) {
+    let unit8Array = await getContext(this)?.resourceManager?.getMediaContent({
+      bundleName: resource.bundleName,
+      moduleName: resource.moduleName,
+      id: resource.id
+    })
+    let imageSource = image.createImageSource(unit8Array.buffer.slice(0, unit8Array.buffer.byteLength))
+    let createPixelMap: image.PixelMap = await imageSource.createPixelMap({
+      desiredPixelFormat: image.PixelMapFormat.RGBA_8888
+    })
+    await imageSource.release()
+    return createPixelMap
+  }
+}
+
+D.
+import { DrawableDescriptor } from ‘@ohos.arkui.drawableDescriptor’
+
+@Entry
+@Component
+struct ImageExample {
+  private resManager = getContext().resourceManager
+
+  build() {
+    Row() {
+      Column() {
+        Image((this.resManager.getDrawableDescriptor($r(‘app.media.drawable’).id) as DrawableDescriptor))
+      }.height(‘50%’)
+    }.width(‘50%’)
+  }
+}
+</code></pre>
+<p>26、3处手势 （ABC） 7.19更新</p>
+<p> A .gesture(</p>
+<p>  TapGesture({ count: 2 })</p>
+<p>   .onAction((event: GestureEvent) =&gt; {</p>
+<p>   if (event) {</p>
+<p>    this.value = JSON.stringify(event.fingerList[0]) }</p>
+<p>   }) )</p>
+<p>C .parallelGesture(…………）</p>
+<p>27、显示字体20号</p>
+<p>minFontSize不对，其余对的（有个代码很复杂的，实际运行的时候import失败，默认这个是对的）</p>
+<p>28、ABCD按钮UI不刷新</p>
+<p>两个for循环的</p>
+<p>29、代码重构</p>
+<p>ABCD</p>
+<p>30、大型应用模块化开发最佳实践（ABCD） 7.20更新 一次上架也算进去</p>
+<p>31、某个应用的启动框架配置文件详细信息如下，以下说法正确的是（ABD） 7.16确定</p>
+<p>关于Task003的描述是错的，其他三项对的</p>
+<p>32、以下module.json5配置文件正确的是(ABD)</p>
+<p>type 属性设为 har的配置是错的。</p>
+<p>33、下面关于Module的说法正确的是（4个选项开头为Ability、Library、entry、feature）</p>
+<p>ABCD 全对</p>
+<p>34、hiAppEvent提供的Watcher接口，订阅到的系统事件，哪些包含HiLog日志?（BD）</p>
+<p>A.CPU高负载事件</p>
+<p>B.卡死事件</p>
+<p>C.启动耗时事件</p>
+<p>D.崩溃事件</p>
+<p>35、以下A到G选项，哪些是持续部署最佳实践?(BEFG)</p>
+<p>A.手工配置管理:</p>
+<p>1、直接修改生产环境上的配置来改变系统配置</p>
+<p>2、集群中各节点的行为有所不同;</p>
+<p>3、靠人手工恢复环境。手动记载配置包括操作系统、应用服务器、关系型数据库管理系统、Web服务器或其他基础设施设置。</p>
+<p>B：监控和回滚机制:实时监控部署后的应用状态，如有问题及时回滚。</p>
+<p>C：开发完成之后再向类生产环境部署:当软件被第一次部署到类生产环境(比如试运行环境)时，就是大部分开发工作完成时，至少是开发团队认为“该软件开发完成了”。</p>
+<p>D：手工部署:持续部署可以采用手工部署的方式发布软件:</p>
+<p>1、有一份非常详尽的文档，该文档描述了执行步骤及每个步骤中易出错的地方;</p>
+<p>2、以手工测试来确认该应用程序是否运行正确;</p>
+<p>3、在发布时，常常会修正一些在发布过程中发现的问题。</p>
+<p>E：灰度发布:先在小部分用户或区域进行部署，观察没问题后再全面推广</p>
+<p>F：环境一致性:保持开发、测试、生产等环境的高度一致性。</p>
+<p>G：自动化部署流程:从代码提交到部署的整个流程应尽可能自动化。</p>
+<p>36、下面关于Node-API数据类型描述正确的是？(AC)</p>
+<p>A napi_env:用于表示Node-API执行时的上下文</p>
+<p>B napi_threadsafe_function_cal_mode:该枚举类型定义了两个常量，用于指定在何时释放线程安全函数的回调函数</p>
+<p>C napi_status:是一个枚举数据类型，表示Node-API接口返回的状态信息</p>
+<p>D napi_threadsafe_function_release_mode:该枚举类型定义了两个常量，用于指定线程安全函数的调用模式</p>
+<p>37、List组件onscrollIndex事件触发时机是？（ABC）7.20更新</p>
+<p>A.List组件列表滚动时每帧触发</p>
+<p>B.List组件首次加载完成时触发</p>
+<p>C.List组件显示区域内第一个子组件或最后一个子组件或中间位置子组件索引值变化时触发</p>
+<p>D.List组件滚动停止时触发</p>
+<p>38、HarmonyOS应用开发者小张，正在利用DevEco Studio进行一款复杂应用的UI界面调试。小张了解到ArkUI Inspector是DevEco Studio内置的一项强大工具，能够显著提升UI调试效率。</p>
+<p>基于ArkUI Inspector的特性描述，下列哪些描述是正确的？(ABCD) </p>
+<p>A.交互式组件选择:用户既可以在组件树视图中选择组件，使U界面上对应组件高亮显示并展示其属性详情:也可以直接在U1布局显示界面上点击选择组件</p>
+<p>B.UI快照管理:支持导出应用的UI界面为快照图片，并允许这些快照被导入回ArkUl lnspector中，便于离线分析或分享讨论UI设计方案</p>
+<p>C.Ul效果查看:开发者能够查看连接真机上运行的应用程序的U显示效果，页面组件树结构，以及选中组件的属性信息</p>
+<p>D.性能监控:提供详细的UI渲染性能指标，帮助开发者识别布局瓶颈和渲染效率问题，从而优化应用性能</p>
+<p>39、HSP支持导出ArkU组件、接口，供应用内的其他HAP/HSP引用，下面正确的是（ 选ABC错了）</p>
+<p>导出ts类和方法</p>
+<p>导出ArkUI组件</p>
+<p>导出native方法</p>
+<p>40、为了加快构建速度，提高开发效率，可以如何调整hvigor配置，从而优化构建速度?（BCD） 7.20更新</p>
+<p>A.启用hvigor的typeCheck，在增量场景下进行对hvigorfile.ts进行类型检查</p>
+<p>B.启用hvigor的incremental，在增量场景下检查任务是否可以跳过</p>
+<p>C.启动hvigor的daemon模式，在增量场景下复用缓存</p>
+<p>D.启用hvigor的parallel，在增量场景下进行并行编译处理</p>
+<p>41、某业务团队发现用户对他们App的某个特性使用率并不高，为了节省用户首次下载安装包的体积，考虑将该特性做成按需加载，那么推荐该特性使用的工程模块类型是?</p>
+<p>A.hap</p>
+<p>B.hsp</p>
+<p>C.app</p>
+<p>D.har</p>
+<p>(BC) </p>
+<p>42、以下napi代码有问题的是？</p>
+<p>43 使用ArkUI组件复用之后，还是没有显著提升列表滑动场景的性能，属于组件复用未生效可能的原因有? (BCD) 7.20更新</p>
+<p>A没有在aboutToReuse更新关联的状态变量数据。</p>
+<p>B复用的自定义组件中使用if等条件渲染语句导致结构不相同，未使用reuseld标记。</p>
+<p>C页面嵌套了过多自定义组件。</p>
+<p>D在aboutToReuse回调函数中更新了冗余的状态变量</p>
+<p>44 以下代码片段哪几处违反了ArkTS语法规范。(ACD)</p>
+<p>function foo(value:number){return value;}</p>
+<p>A foo(&#39;&#39;);
+B foo(0);
+C foo(undefined);
+D foo(null);</p>
+<p>45 下面关于方舟字节码文件格式描述正确的是（CD）</p>
+<p>A.方舟字节码文件中不包含字节码文件内容的adler32校验和</p>
+<p>B. 方舟字节码文件中数据类型uint32_t表示32-bit无符号整数，采用大端字节序</p>
+<p>C.方舟字节码文件中数据类型uint16_t表示16-bit无符号整数，采用小端字节序</p>
+<p>D.方舟字节码文件是ArkTS/TS/JS编译后的二进制产物</p>
+<p>46 ArkTs中不能使用以下哪些类型。（AB）7.20更新</p>
+<p>A. unknown</p>
+<p>B. any</p>
+<p>C. union type</p>
+<p>D. tuple type</p>
+<p>47 当前动态import支持导入的模块类型有哪些? (ABCD)</p>
+<p>A.动态import支持加载HSP模块</p>
+<p>B.动态import支持加载远程HAR模块</p>
+<p>C.动态import支持加载OHPM模块</p>
+<p>D.动态import支持加载本地HAR模块</p>
+<p>48 ArkTs是鸿蒙生态的应用开发语言。下列说法正确的是 （ABD）</p>
+<p>A.ArKTS提供了声明式UI范式、状态管理支持等相应的能力，让开发者可以以更简洁、更自然的方式开发应用</p>
+<p>B.针对JavaScript(简称JS)/TS并发能力支持有限的问题，ArKTS对并发编程API和能力进行了增强。</p>
+<p>C. TS/JS代码支持import ArkTS代码。</p>
+<p>D. ArKTS在保持TypeScript(简称TS)基本语法风格的基础上，进一步通过规范强化静态检查和分析，使得在程序运行之前的开发期能检测更多错误，提升代码健壮性，并实现更好的运行性能。</p>
+<p>49 下面关于混淆规则描述正确的是 （AB）</p>
+<p>-enable-export-obfuscation:开启直接导入或导出的类或对象的名称和属性名混淆</p>
+<p>-disable-obfuscation:关闭所有混淆</p>
+<p>-enable-toplevel-obfuscation:开启属性混淆</p>
+<p>-enable-property-obfuscation:开启顶层作用域名称混淆</p>
+<p>50 那些属性声明是正确的 </p>
+<p>value1 value4的声明</p>
+<p>51 下面ABCD关于混淆规则描述正确的是（AC）</p>
+<p>A. -print-namecache filepath: 将名称缓存保存到指定的文件路径。</p>
+<p>B. -keep-property-name [,identifiers,..]:指定要保留的顶层作用域的名称</p>
+<p>C. -keep-file-name [,identifiers...]:指定要保留的文件/文件夹的名称</p>
+<p>D. -keep-global-name [,identifiers....]:指定想保留的属性名</p>
+<p>52 如下ABC 3处手势，有机会执行的是哪几处? (AC)</p>
+<p>A 含有count2的代码  </p>
+<p>C parallelGesture</p>
+<p>53 不冲突该怎么配置XXXX BC</p>
+<p>A. gesture</p>
+<p>B.priorityGesture</p>
+<p>C.parallelGesture</p>
+<p>D. GesureGroup</p>
+<p>54 以下哪些是可以在Navigation中使用pushPathByName接口传递的params的参数类型 （ABD） 720更新</p>
+<p>A string</p>
+<p>B arrayBuffer</p>
+<p>C map&lt;string,string&gt;</p>
+<p>D record&lt;string,string&gt;</p>
+<p>55 4个按钮，不会触发UI刷新 正确</p>
+<p>A count=0</p>
+<p>C value=100</p>
+<p>56 在开发Harmonyos应用的多元化测试环境中，DevEco studio引入了本地模拟器(Loca1Emulator)作为重要工具，旨在帮助开发者在个人开发机器上高效模拟Harmonyos环境，进行应用或服务的快速运行与细致调试。请根据本地模拟器的实际应用场景与系统要求，选出所有正确的描述选项(BCD)</p>
+<p>A.开发者需要注意的是，DevEco Studio的本地模拟器可以在虚拟机内部进一步运行，以节省硬件资源。</p>
+<p>B.为了保证流畅的运行和调试体验，本地模拟器推荐macOS系统版本至少为12.5以上。</p>
+<p>C.DevEco Studio的本地模拟器允许开发者在个人电脑上模拟HarmonyOS环境，便于应用或服务的运行与调试。</p>
+<p>D.mac计算机配置方面，为了确保本地模拟器的稳定运行，推荐至少配备8GB RAM。</p>
+<p>57 通过如下openLink的接口启动，如下哪些配置的UAbility不可能被拉起?（3个） 7.19更新</p>
+<p>两项http的配置无法拉起，还有一项https代码如下：</p>
+<pre><code class="language-javascript">{
+
+“name”: “TargetAbility”,
+
+“skills”: [
+
+{
+
+“actions”:[
+
+“ohos.want.action.sendData”,
+
+],
+
+“entities”:[
+
+“entity.system.browsable”,
+
+],
+
+“uris”:[
+
+{
+
+“scheme”: “https”,
+
+“host”: “www.test.com”,
+
+“port”: “8080”,
+
+“path”: “path”,
+
+“autoVerify”: ture
+
+}
+
+]
+
+}
+
+]
+
+}
+</code></pre>
+<p>58 以下关于Localstorage的说法正确有哪些? (ACD)</p>
+<p>A.被@Component装饰的组件最多可以访问一个LocalStorag?实例和AppStorage，未被@Entry装饰的组件不可被独立分配LocalStorage实例，只能接受父组件的LocalStorage实例。</p>
+<p>B.LocalStorage中的所有属性都是不可变的。</p>
+<p>C.组件树的根节点，即被@Entry装饰的@Component，可以被分配一个LocalStorage实例，此组件的所有子组件实例将自动获得对该LocalStorage实例的访问权限。</p>
+<p>D.应用程序可以创建多个LocalStorage实例，LocalStorage实例可以在页面内共享，也可以通过GetShared接口，获取在UIAbility里创建的GetShared，实现跨页面、UAbility内共享。</p>
+<p>59 module ABCD 正确</p>
+<p>60 如下哪些方式可实现图片动态播放?（ACD） 7.16确定</p>
+<p>代码A：</p>
+<pre><code class="language-javascript">@Entry
+
+@Component
+
+struct ImageAnimatorExample {
+
+  @State iterations: number = 1
+
+  build() {
+
+    Column({ space: 10 }) {
+
+      ImageAnimator()
+
+        .images([
+
+          {
+
+            src: $r(&#39;app.media.img1&#39;)
+
+          },
+
+          {
+
+            src: $r(&#39;app.media.img2&#39;)
+
+          },
+
+          {
+
+            src: $r(&#39;app.media.img3&#39;)
+
+          },
+
+          {
+
+            src: $r(&#39;app.media.img4&#39;)
+
+          }
+
+        ])
+
+        .duration(2000)
+
+        .fillMode(FillMode.None).iterations(this.iterations).width(340).height(240)
+
+        .margin({ top: 100 })
+
+    }.width(&#39;100%&#39;).height(&#39;100%&#39;)
+
+  }
+
+}
+</code></pre>
+<p>代码B：</p>
+<pre><code class="language-javascript">import {AnimationOptions, AnimatedDrawableDescriptor} from &#39;@ohos.arkui.drawableDescriptor&#39;
+
+import image from &#39;@ohos.multimedia.image&#39;
+
+
+
+@Entry
+
+@Component
+
+struct ImageExample {
+
+  pixelmaps: Array&lt;PixelMap&gt; = [];
+
+  options: AnimationOptions = {duration:2000, iterations:1};
+
+  @State animated: AnimatedDrawableDescriptor | undefined = undefined;
+
+
+
+  async aboutToAppear() {
+
+    this.pixelmaps = await this.getPixelMaps();
+
+    this.animated = new AnimatedDrawableDescriptor(this.pixelmaps, this.options);
+
+  }
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image(this.animated)
+
+          .width(&#39;500px&#39;).height(&#39;280px&#39;)
+
+      }.height(&#39;50%&#39;)
+
+      Row() {
+
+        Button(&#39;once&#39;).width(100).padding(5).onClick(() =&gt; {
+
+          this.options = {duration:2000, iterations:1};
+
+          this.animated = new AnimatedDrawableDescriptor(this.pixelmaps, this.options);
+
+        }).margin(5)
+
+      }
+
+    }.width(&#39;50%&#39;)
+
+  }
+
+
+
+  private async getPixmapFromMedia(resource: Resource) {
+
+    let unit8Array = await getContext(this)?.resourceManager?.getMediaContent({
+
+      bundleName: resource.bundleName,
+
+      moduleName: resource.moduleName,
+
+      id: resource.id
+
+    })
+
+    let imageSource = image.createImageSource(unit8Array.buffer.slice(0, unit8Array.buffer.byteLength))
+
+    let createPixelMap: image.PixelMap = await imageSource.createPixelMap({
+
+      desiredPixelFormat: image.PixelMapFormat.RGBA_8888
+
+    })
+
+    await imageSource.release()
+
+    return createPixelMap
+
+  }
+
+
+
+  private async getPixelMaps() {
+
+    Mypixelmaps.push(await this.getPixmapFromMedia($r(&#39;app.media.icon&#39;))) //对应资源图片名后缀为png
+
+    return Mypixelmaps;
+
+  }
+
+}
+
+</code></pre>
+<p>代码C：</p>
+<pre><code class="language-javascript">import {AnimationOptions, AnimatedDrawableDescriptor} from &#39;@ohos.arkui.drawableDescriptor&#39;
+
+import image from &#39;@ohos.multimedia.image&#39;
+
+
+
+@Entry
+
+@Component
+
+struct ImageExample {
+
+  pixelmaps: Array&lt;PixelMap&gt; = [];
+
+  options: AnimationOptions = {duration:2000, iterations:1};
+
+  @State animated: AnimatedDrawableDescriptor | undefined = undefined;
+
+
+
+  async aboutToAppear() {
+
+    this.pixelmaps = await this.getPixelMaps();
+
+    this.animated = new AnimatedDrawableDescriptor(this.pixelmaps, this.options);
+
+  }
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image(this.animated)
+
+          .width(&#39;500px&#39;).height(&#39;280px&#39;)
+
+      }.height(&#39;50%&#39;)
+
+      Row() {
+
+        Button(&#39;once&#39;).width(100).padding(5).onClick(() =&gt; {
+
+          this.options = {duration:2000, iterations:1};
+
+          this.animated = new AnimatedDrawableDescriptor(this.pixelmaps, this.options);
+
+        }).margin(5)
+
+      }
+
+    }.width(&#39;50%&#39;)
+
+  }
+
+
+
+  private async getPixmapListFromMedia(resource: Resource) {
+
+    let unit8Array = await getContext(this)?.resourceManager?.getMediaContent({
+
+      bundleName: resource.bundleName,
+
+      moduleName: resource.moduleName,
+
+      id: resource.id
+
+    })
+
+    let imageSource = image.createImageSource(unit8Array.buffer.slice(0, unit8Array.buffer.byteLength))
+
+    let createPixelMap: Array&lt;image.PixelMap&gt; = await imageSource.createPixelMapList({
+
+      desiredPixelFormat: image.PixelMapFormat.RGBA_8888
+
+    })
+
+    await imageSource.release()
+
+    return createPixelMap
+
+  }
+
+
+
+  private async getPixelMaps() {
+
+    let Mypixelmaps:Array&lt;PixelMap&gt; = await this.getPixmapListFromMedia($r(&#39;app.media.icon&#39;))//对应资源图片名后缀为gif
+
+    return Mypixelmaps;
+
+  }
+
+}
+</code></pre>
+<p>代码D：</p>
+<pre><code class="language-javascript">@Entry
+
+@Component
+
+struct ImageExample {
+
+  build() {
+
+    Column({ space: 10 }) {
+
+      Image($r(&#39;app.media.earth&#39;)) //对应资源图片名后缀为gif
+
+        .width(100)
+
+        .height(100)
+
+    }
+
+  }
+
+}
+
+</code></pre>
+<p>61 如何实现类似下图布局（BC） A选项采用Grid方式不符</p>
+<p>62、以下关于ArkTS线程实例间传输实现方式描述正确的是（BC） 7.15更新 去掉了D</p>
+<p>以下代码块中关于ArkTS线程实例间传输实现方式的调用语句，描述正确的是ABCD中哪几项？</p>
+<pre><code class="language-javascript">import { taskpool,worker } from &#39;@kit.ArkTs&#39;;
+
+@sendable
+
+class A{}
+
+let a: A= new A();
+
+@Concurrent
+
+function foo(a: A){}
+
+let task:taskpool.Task = new taskpool.Task(foo, a)
+
+let w= new worker.Threadworker(&quot;entry/ets/workers/Worker.ets&quot; )
+
+taskpool.execute(task).then(()=&gt;{});
+
+w.postMessageWithSharedSendable(a);
+
+task.setCloneList([a]);
+
+taskpool.execute(task).then(()=&gt;{});
+
+w.postMessage(a);
+</code></pre>
+<p>A： w.postMessage(a);，Worker 共享传输实现方式</p>
+<p>B： taskpool.execute(task).then(()=&gt;{});，TaskPool 共享传输实现方式</p>
+<p>C： w.postMessageWithSharedSendable(a);，Worker 共享传输实现方式</p>
+<p>D： task,setCloneList([a]); taskpool.execute(task).then(()=&gt;{);，TaskPool 共享传输实现方式</p>
+<p>63、下面关于动态import描述正确的（ACD）</p>
+<p>A.HAR模块间只有变量动态import时可以进行模块解耦</p>
+<p>B.常量动态import也必须配置runtimeOnly选项</p>
+<p>C.动态import根据入参是否为常量字符串分为常量动态import和变量动态import两种</p>
+<p>D.动态导入import()是个异步接口，调用后将返回一个promise</p>
+<p>64、开发者开发了一个应用，该应用只有一个hap包，其module.json5中abilities的配置如下所示，包含1个UIAbility(无Web组件)、1个FormExtensionAbility组件、</p>
+<p>1个WorkSchedulerExtensionAbility组件，那么该应用在运行过程中，最多会存在几个应用进程：（3个） 7.19更新</p>
+<pre><code class="language-javascript">&quot;abilities&quot;:
+
+{
+
+  &quot;name&quot; : &quot;EntryAbility&quot;,
+
+  &quot;srcEntry&quot; : &quot;./etc/entryability/EntryAbility.ts&quot;,
+
+  &quot;description&quot; : &quot;$string:EntryAbility_desc&quot;,
+
+  &quot;exported&quot; : ture
+
+  }
+
+,
+
+&quot;extensionAbilities&quot;:
+
+{
+
+  &quot;name&quot;: &quot;ClockFormExtensionAbility&quot;,
+
+  &quot;srcEntrance&quot;: &quot;./ets/form/ClockFormExtensionAbility.ts&quot;,
+
+  &quot;type&quot;: &quot;form&quot;
+
+  },
+
+{
+
+  &quot;name&quot;: &quot;TipWorkSchedulerExtensionAbility&quot;,
+
+  &quot;srcEntrance&quot;: &quot;./ets/service/TipWorkSchedulerExtensionAbility.ts&quot;,
+
+  &quot;type&quot;: &quot;workScheduler&quot;
+
+  }
+</code></pre>
+<p>65、下面代码段符合ArkTS编程规范的是（D）A存疑没定义condition</p>
+<p>A：</p>
+<p>if (condition) {</p>
+<p> console.log(&#39;success&#39;);</p>
+<p>}</p>
+<p>B：</p>
+<p>for (let idx= 0 ; idx &lt;5 ; ++idx)</p>
+<p> console.log(idx);</p>
+<p>C：</p>
+<p>let maxCount = 10,isCompleted=false;</p>
+<p>let pointX,pointY;</p>
+<p>pointX = 10;pointY = 0</p>
+<p>D：</p>
+<p>let maxCount = 10;</p>
+<p>let isCompleted= false;</p>
+<p>let pointX = 0;</p>
+<p>let pointY = 0;</p>
+<p>66、在基于Stage模型开发的应用项目代码下，都存在一个app.json5配置文件，用于配置应用的全局信息，</p>
+<p>以下ABCD4个appjson5配置文件错误的是 （CD） 7.17更新</p>
+<pre><code class="language-javascript">A、
+
+{
+
+  &quot;app&quot;: {
+
+  &quot;bundleName&quot;:&quot;com.example.myapplication&quot;,
+
+  &quot;vendor&quot;:&quot;example&quot;,
+
+  &quot;versionCode&quot;:1000000,
+
+  &quot;versionName&quot;:&quot;1.0.2&quot;,
+
+  &quot;icon&quot;:&quot;$media:app_icon&quot;,
+
+  &quot;label&quot;:&quot;$string:app_name&quot;
+
+}
+
+}
+
+
+
+B、
+
+{
+
+  &quot;app&quot;: {
+
+  &quot;bundleName&quot;:&quot;com.example.myapplication&quot;,
+
+  &quot;vendor&quot;:&quot;example&quot;,
+
+  &quot;versionCode&quot;:1000000,
+
+  &quot;versionName&quot;:&quot;1.0.2&quot;,
+
+  &quot;icon&quot;:&quot;$media:app_icon&quot;,
+
+  &quot;label&quot;:&quot;$string:app_name&quot;,
+
+  &quot;bundleType&quot;:&quot;app&quot;
+
+}
+
+}
+
+
+
+C、
+
+{
+
+  &quot;app&quot;: {
+
+  &quot;bundleName&quot;:&quot;com.example.myapplication&quot;,
+
+  &quot;vendor&quot;:&quot;example&quot;,
+
+  &quot;versionCode&quot;:1000000,
+
+  &quot;versionName&quot;:&quot;1.0.2&quot;,
+
+  &quot;icon&quot;:&quot;$media:app_icon&quot;,
+
+  &quot;label&quot;:&quot;app_name&quot;,
+
+  &quot;bundleType&quot;:&quot;app&quot;
+
+}
+
+}
+
+
+
+D、
+
+{
+
+  &quot;app&quot;: {
+
+  &quot;bundleName&quot;:&quot;com.example.myapplication&quot;,
+
+  &quot;vendor&quot;:&quot;example&quot;,
+
+  &quot;versionCode&quot;:1000000,
+
+  &quot;icon&quot;:&quot;$media:app_icon&quot;,
+
+  &quot;label&quot;:&quot;$string:app_name&quot;,
+
+  &quot;bundleType&quot;:&quot;app&quot;
+
+}
+
+}
+
+</code></pre>
+<p>67、在ArkTS中，以下哪些属性的声明是正确的。（value1、3、4）</p>
+<pre><code class="language-javascript">class C{
+
+ value1:number = 0;
+
+ value2?:number = null;
+
+ value3:number| undefined = undefined;
+
+ value4?:number;
+
+}
+</code></pre>
+<p>68、下面关于方舟字节码指令含义说明正确的是？（BC）7.19更新</p>
+<p>A假设寄存器v0存放了对象A, 累加器(acc)存放了对象B,那么执行指令&quot;lda v0&quot;后，v0存放对象B，acc存放对象B</p>
+<p>B.假设寄存 器v0存放了对象A,累加器(acc)存放了对象B,那么执行指令&quot;lda v0&quot;后，v0存放对象A，acc存放对象A</p>
+<p>C. 假设寄存 器v0存放了对象A,寄存器v1存放了对象B,那么执行指令&#39;mov v0, v1&quot;后，v0存放对象B, v1存放对象B</p>
+<p>D.假设寄存器v0存放了对象A, 寄存器v1存放了对象B,那么执行指令&quot;movv0,v1&quot;后，v0存放对象A v1存放对象A</p>
+<p>69、Code Linter针对ArKT5/TS代码进行最佳实践/编程规范方面的检查，最佳实践/编程规范方面的检查规则可以配置，针对codelinter的配置项一下哪些说法是正确的？(ACD)</p>
+<p>A.ruleSet:配置检查使用的规则集，规则集支持一次导入多条规则。</p>
+<p>B.rules:可以基于ruleSet配置的规则集，新增额外规则项，但是无法修改ruleSet中规则默认配置</p>
+<p>C.ignore:配置无需检查的文件目录，其指定的目录或文件需使用相对路径格式，相对于code-inter.json5所在工程根目录，例如:build/**/*</p>
+<p>D.fles:配置待检查的文件名单，如未指定目录，规则适用于所有文件,例如:[&quot;<strong>/*.ets&quot;,&quot;</strong>/<em>.js&quot;,&quot;**/</em>.ts&quot;]</p>
+<p>70、在使用DevEco Studio进行HarmonyOS应用开发和调试过程中，开发者小张遇到应用运行时意外终止的情况，他需要快速定位并解决导致应用崩溃的问题。以下哪些做法可以帮助小张有效分析和处理这些问题？</p>
+<p>A. 利用系统自动生成的FaultLog，包括App Freeze、CPP Crash、JS Crash、System Freeze和ASan报告，这些报告会详细记录故障发生时的环境、堆栈信息和可能的故障原因，是排查问题的重要参考</p>
+<p>B. 当怀疑问题是由于C++代码中的内存错误（如数组越界、内存泄露、重复释放内存）引起时，进入“Run/Debug Configurations”设置界面，勾选启用Address Sanitizer（ASan），然后重新部署应用进行测试以获取更详细的内存问题报告</p>
+<p>C. 查看DevEco Studio log工具栏输出的错误日志，根据日志提示分析应用崩溃的具体原因及代码位置</p>
+<p>D. 若遇到App运行卡顿或系统整体无响应（App Freeze、System Freeze）的情况，可以通过性能分析工具中的Frame Insights和Allocation Insights功能，分析应用的资源消耗情况，寻找可能的瓶颈</p>
+<p>71、以下代码片段哪几个class/interface违反了ArkTS语法规范（AD）</p>
+<p>class Person {}</p>
+<p>class Student extends Person {}</p>
+<p>class Instructor implements Person {}</p>
+<p>interface Shape {}</p>
+<p>interface Circle implements Shape {)</p>
+<p>class Square implements Shape {}</p>
+<p>A.Circle</p>
+<p>D.Instructor</p>
+<p>72、ArkTS是鸿蒙生态的应用开发语言。以下哪些选项是ArkTS的设计理念。</p>
+<p>A.ArkTS保留了TS大部分的语法特性，帮助开发者更容易上手ArkTS。</p>
+<p>C.通过规范强化静态检查和分析，减少运行时的类型检查，从而降低了运行时负载，提升执行性能。</p>
+<p>D.通过规范强化静态检查和分析，使得许多错误在编译时可以被检测出来，降低代码运行错误的风险。</p>
+<p>73、开发者小李正在使用DevEco Studio开发一款面向HarmonyOS的应用，该应用需要在多种设备上表现出一致的稳定性和优秀的用户体验。为了确保高质量的发布，小李意识到需要实施一套全面的测试策略，覆盖代码的自动化测试和手动测试，还需要衡量代码的测试覆盖率，以确定测试的充分性。在DevEco Studio的测试框架下，</p>
+<p>以下描述中，哪些是正确的？（ACD）</p>
+<p>A.无论选择Instrument Test还是Local Test，DevEco Studio均内置了详尽的测试报告功能，实时显示测试进度，且直接在IDE中可查看代码覆盖率报告，无需外部工具。</p>
+<p>C.DevEco Studio的测试框架提供测试用例执行能力，包含基础接口以编写和输出测试结果，鼓励用户创建易于维护的自动化测试脚本，并且统计代码覆盖率。</p>
+<p>D.Instrument Test：测试用例存储于项目的ohosTest目录，要求在HarmonyOS设备或模拟器上执行，兼容ArkTS与JS语言编写。</p>
+<p>74、在开发过程中，我们可以将每个功能模块作为一个独立的Module进行开发。关于Module，下列选项说法正确的是？（ABC）</p>
+<p>A.Shared类型的Module：动态共享库。HSP中的代码和资源可以独立编译，运行时在一个进程中代码也只会存在一份。</p>
+<p>B.HAR类型的Module：静态共享库。HAR中的代码和资源跟随使用方编译，如果有多个使用方，它们的编译产物中会存在多份相同拷贝。</p>
+<p>C.feature类型的Module：应用的动态特性模块，编译后生成feature类型的HAP。一个应用中可以包含一个或多个feature类型的HAP，也可以不包含。</p>
+</div>
+</body></html>
